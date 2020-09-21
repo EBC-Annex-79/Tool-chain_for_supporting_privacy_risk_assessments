@@ -1,0 +1,102 @@
+{
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenStream": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenStream2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#FloorSub": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount0d3c9234-ed5b-4d41-a6e5-406ba6287a13": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount779df07a-bc6d-48eb-8567-a767f70a9bb8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountFloorSub": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRStream": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRStream2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream116c468d-a06b-4588-bdfb-cda337fd62bf": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream86f91752-8ca0-46ac-a316-a27e3788f3b1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamFloorSub": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamb403d00e-d9bc-447e-9227-f15ef6c39a26": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamfef9bc8f-9c7c-4bae-b2f4-1d1effc88f06": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForFloor": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForStudyZone": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForTeachingRoom": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StudyZone_sub": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TeachingRoom_sub": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Context"
+    }
+}

@@ -1,0 +1,1973 @@
+{
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_10": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_11": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_12": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_13": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_14": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_15": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_4": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_5": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_6": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_8": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_9": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_0": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_10": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_11": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_12": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_13": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_14": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_4": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_5": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_6": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_8": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_9": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_0": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_10": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_11": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_13": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_14": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_4": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_6": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_9": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Conference": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 5,
+                "template_count": 1
+            }
+        ],
+        "privacy_score": 5,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 5,
+                "template_count": 1
+            }
+        ],
+        "privacy_score": 5,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 5,
+                "template_count": 1
+            }
+        ],
+        "privacy_score": 5,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DewPoint_11": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DewPoint_12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DewPoint_5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DewPoint_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DewPoint_room": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Enthalpy_11": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Enthalpy_12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Enthalpy_5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Enthalpy_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Enthalpy_room": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity4": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity6": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity9": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity_conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Humidity_room": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance4": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance6": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance9": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Illuminance_conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise4": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise6": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise9": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Noise_room": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount002e4296-e099-47de-973f-0260d85d12e8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount01ffd3aa-cf6e-43c5-a82a-10aac2941470": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount0c7828e3-4767-4695-a679-e9617fa1c011": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount0f438dbc-605e-402d-bfd0-d417aa5462ec": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount14063a84-b9f4-4948-8b32-0381cc1a5a33": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount155f5da7-872b-48d2-9a87-9c1615999b47": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount19bf7e76-f160-4007-9f30-973322def3b5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount1b699d62-74ab-47b1-a6d7-fb506a75a7e7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount21c146f9-21c2-466b-8b41-a899d5eccb08": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount29fa0d84-f1d1-470e-95ca-f6269bbf9f0a": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount2b9300db-3b05-4010-9b07-fc45479374b7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount30dcbabc-9872-49a1-a887-9af5855e4ae5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount42b34ac0-0f84-4687-8054-ab124b2cb80f": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount53887a09-4ad8-49fc-92fe-171ffec31731": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount6a86a13b-05e5-4c1b-b153-d7eb75c0a589": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount6fc4e07e-229b-42a3-a715-5708893247ce": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount71464c88-be67-42e7-865c-35a01241523d": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount7d89699b-5880-4307-93da-6ed6fb64d067": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount920bccd1-374d-4e46-b0c3-6aa77e02c3ca": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount94bbe9a5-8f13-4db3-b835-54e4f7adc206": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount99480f3f-46a5-4833-ba3c-2a40228dd1ed": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount9fa32a11-9b2f-4de2-911a-cac3a785c5d3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount9ff964ef-27e9-4970-8947-7eb38c2d0eba": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountaebd170a-041c-4ff9-a106-cf84fb71cb54": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountb2abe122-f4d9-4217-896a-a925fe3b5574": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountc08a3160-b78f-468e-8932-ea1abf91daeb": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountc4fc88c9-bcf8-4204-b9d4-996ed7a7bb3d": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountceefb9fc-e2c1-4465-bea8-cfdd01c52864": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountd00f93f8-0fcb-491a-895d-75ff7eb86c1b": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountd34a3ff7-d930-4cff-9958-adb7dcff1312": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountd57c171c-64b0-488b-928b-1b8e32fa4bc0": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountdc8bd9e5-41b3-4a97-9210-9184cc1b1314": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCounte5a0a6b8-5d7c-4224-b7c8-7f744c72ab69": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCounte61223fb-7315-4482-8d23-60f4d043be2c": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCounte9abb57b-c912-4cee-a0cc-8d6d86404afc": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCounte9b5c51e-f02a-405f-a20b-6f07ff5abe2e": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountfdcc00c9-36ce-443e-95f0-2904a976b8ca": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountfeb2b660-f81f-4b58-8bbd-39413e82fba1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR12": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR4": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR5": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR6": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR8": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR9": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIR_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ParticulateMatter25_11": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ParticulateMatter25_12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ParticulateMatter25_5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ParticulateMatter25_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ParticulateMatter25_room": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream10b709e4-681a-42ca-84bf-f9eb88cf2b61": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream172eea68-72dd-46d2-959f-4a3ee20f7b5c": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream23ee85cc-729e-4d00-8f23-053d62951e16": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream388cb403-3883-4f50-ad2c-88b375b66df8": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream3a721d95-acf6-4c48-b827-252623a5b110": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream48649108-4cfc-453a-9b13-0be9f99d057d": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream4c936f8f-e103-4fc7-a837-26613b6bced7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream64bdb45b-48cf-4067-a198-98aa9052c1d1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream6db554d5-94e6-44bd-9755-ab0937a0ac14": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream713e2d5c-0d1f-4419-a9d3-2a2dea3cb6b7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream7df2d5d0-53e5-42a2-a619-81cc5c9a38dc": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream82076a98-231d-4125-9e21-4e16311e876e": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream8d7c367a-3a06-48d0-ae99-57aa7c61dbf2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream921caf0d-318b-4186-a0fa-87c34cecfd8f": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream99449d83-6ca4-42a8-9d6a-b648056c21c0": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream9aad964f-dfcc-4c07-802e-d27efe69554f": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreama6f25c11-f020-46f6-8df2-ed9254b4c091": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamad366cad-05d4-4eeb-95e3-ccd00b667c98": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamb0425b23-3d00-4d54-b043-b988bff1f70b": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamb90fb6e6-467d-4d9d-8288-58570fa385af": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamc099cdb5-f36c-40a7-96e0-c50bbe543870": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamcc3c661e-860b-4159-895e-362c55c3aa97": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamcea7e8a1-19d4-45cf-bbeb-9bd0146d3690": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamd51dde1e-bf41-4fcd-bcd9-2e22bfcae3a3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreame11b7fad-4814-4eed-a5d1-6dfb8c39036a": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreame576d203-3e78-45df-b371-e95927018ca2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamf5f8e290-3d22-40b0-b506-f6a1adfe95f1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 7,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Room": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 5,
+                "template_count": 1
+            }
+        ],
+        "privacy_score": 12,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC0": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC10": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC11": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC13": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC14": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC4": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC6": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC9": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC_11": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC_12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC_5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC_Conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC_room": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature1": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature12": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature4": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature5": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature6": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature7": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature8": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature9": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature_conference": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature_outside": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#building": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 5,
+                "template_count": 1
+            }
+        ],
+        "privacy_score": 5,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#outside": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantOfficeHours_Single_Office_Room",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Work_day_Single_Office_Room",
+                "privacy_score": 3,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 5,
+                "template_count": 1
+            }
+        ],
+        "privacy_score": 12,
+        "type": "Context"
+    }
+}

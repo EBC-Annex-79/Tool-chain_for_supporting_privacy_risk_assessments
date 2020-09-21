@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:privvuln="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#"
+   xmlns:privvulnv2="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForRoom">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ScheduleActivities"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence8aeabb8f-2287-4aa5-b88e-74c2e646ec22">
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</privvulnv2:TemplateCount>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presenced9331d68-c834-4283-8a5d-5fd433b3cb82">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</privvulnv2:TemplateCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Roomaa9a5a2b-ea69-400a-8c42-ea320c5322b2">
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Counte97b3860-f355-4aa9-b2c8-0136c79916e0">
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</privvulnv2:TemplateCount>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate1">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#HeartRate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity0">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ElectrodermalActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Room_sub">
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2Steam"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForRoom"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation1"/>
+    <privvuln:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Human0"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Teaching_Room"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TemperatureStream"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HumidityStream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presenced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Countc2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room108a6a87-ad51-4174-bd1a-c4cf6022fcfc">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</privvulnv2:TemplateCount>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</privvulnv2:TemplateCount>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantCount"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream447d54d3-e2f2-4b27-8c50-3868b579ef93">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</privvulnv2:TemporalResolution>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentityaa9a5a2b-ea69-400a-8c42-ea320c5322b2">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Roomaa9a5a2b-ea69-400a-8c42-ea320c5322b2"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Thermometer0">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Thermometer"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2Steam">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</privvulnv2:TemporalResolution>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2ToPresence447d54d3-e2f2-4b27-8c50-3868b579ef93"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#CO2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentity108a6a87-ad51-4174-bd1a-c4cf6022fcfc"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</privvulnv2:TemplateCount>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HumidityStream">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Humidity"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2ToPresence447d54d3-e2f2-4b27-8c50-3868b579ef93">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream447d54d3-e2f2-4b27-8c50-3868b579ef93"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2ToPresence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#YearOfBirth0">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#YearOfBirth"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ScheduleActivities">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Counte97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Countc2f122ac-e146-4643-af31-e4b09b2e9c0b">
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</privvulnv2:TemplateCount>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count"/>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence233a3b42-5f0b-4b4a-b5a5-c4ad72700154">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</privvulnv2:TemplateCount>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Human0">
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gender0"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity0"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#YearOfBirth0"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Photoplethysmography0"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate0"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Thermometer0"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Occupant"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformanced9331d68-c834-4283-8a5d-5fd433b3cb82"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentityaa9a5a2b-ea69-400a-8c42-ea320c5322b2"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentity108a6a87-ad51-4174-bd1a-c4cf6022fcfc"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentitye0a4130d-08e7-4252-a3a5-c6eaa5e56558"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Photoplethysmography1">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Photoplethysmography"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentity108a6a87-ad51-4174-bd1a-c4cf6022fcfc">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentity"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room108a6a87-ad51-4174-bd1a-c4cf6022fcfc"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentity"/>
+    <privvulnv2:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Human1">
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Photoplethysmography1"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity1"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate1"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Occupant"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gender1"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#YearOfBirth1"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer1"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Thermometer1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TemperatureStream">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count13537218-f365-4377-90b2-96cdcdbd8633">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</privvulnv2:TemplateCount>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154">
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer1">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Accelerometer"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Building_sub">
+    <privvuln:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Room_sub"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OutdoorTemperature"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Building"/>
+    <privvuln:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Hallway_Room_sub"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantCount">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToRoomIdentityTeaching_Room_subfb1f96fb-4553-42f1-bd80-b74180222932"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancec2f122ac-e146-4643-af31-e4b09b2e9c0b"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gender1">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Gender"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation1">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformancee97b3860-f355-4aa9-b2c8-0136c79916e0"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance8aeabb8f-2287-4aa5-b88e-74c2e646ec22"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentityaa9a5a2b-ea69-400a-8c42-ea320c5322b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OutdoorTemperature">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OutdoorTemperature"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">300.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Roome0a4130d-08e7-4252-a3a5-c6eaa5e56558">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:privacyRiskScore>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</privvulnv2:TemplateCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</privvulnv2:TemplateCount>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentitye0a4130d-08e7-4252-a3a5-c6eaa5e56558"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationOccupantCountAndScheduleActivitiesToTeachingPerformance13537218-f365-4377-90b2-96cdcdbd8633"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToTeachingPerformance233a3b42-5f0b-4b4a-b5a5-c4ad72700154"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate0">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#HeartRate"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentitye0a4130d-08e7-4252-a3a5-c6eaa5e56558">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Roome0a4130d-08e7-4252-a3a5-c6eaa5e56558"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationToRoomIdentity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCount"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Thermometer1">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Thermometer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Photoplethysmography0">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Photoplethysmography"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity1">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ElectrodermalActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocationPresenceAndScheduleActivitiesToRoomIdentity"/>
+    <privvulnv2:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_sub2b349b14-d337-47d4-9af7-bbe16b08653d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Hallway_Room_sub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Hallway_Room"/>
+    <privvuln:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Human1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer0">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Accelerometer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#YearOfBirth1">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#YearOfBirth"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gender0">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Gender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#CO2">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2ToPresence447d54d3-e2f2-4b27-8c50-3868b579ef93"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceCO2AndTemperatureToOccupantCountb4dd4637-ed95-4b7b-b43a-4a71c0d50fff"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:privvuln="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#"
+   xmlns:privvulnv2="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCountFloorFloorSub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountFloorSub"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCountFloor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresencefef9bc8f-9c7c-4bae-b2f4-1d1effc88f06"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount0d3c9234-ed5b-4d41-a6e5-406ba6287a13"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCountFloorFloorSub"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#CountingLine"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRStream2">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#PIR"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresence116c468d-a06b-4588-bdfb-cda337fd62bf"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</privvulnv2:TemplateCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream2">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#CountingLine"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCountFloorFloorSub"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount779df07a-bc6d-48eb-8567-a767f70a9bb8"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresence86f91752-8ca0-46ac-a316-a27e3788f3b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresence116c468d-a06b-4588-bdfb-cda337fd62bf">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresence"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream116c468d-a06b-4588-bdfb-cda337fd62bf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#FloorSub">
+    <privvulnv2:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StudyZone_sub"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForFloor"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountFloorSub"/>
+    <privvulnv2:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TeachingRoom_sub"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamFloorSub"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream86f91752-8ca0-46ac-a316-a27e3788f3b1">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount779df07a-bc6d-48eb-8567-a767f70a9bb8">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantCount"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TeachingRoom_sub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Teaching_Room"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRStream"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenStream"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForTeachingRoom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream116c468d-a06b-4588-bdfb-cda337fd62bf">
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRStream">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#PIR"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresenceb403d00e-d9bc-447e-9227-f15ef6c39a26"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamFloorSub"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StudyZone_sub">
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRStream2"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenStream2"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForStudyZone"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream2"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Studyzone_Room"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount0d3c9234-ed5b-4d41-a6e5-406ba6287a13">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantCount"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresencefef9bc8f-9c7c-4bae-b2f4-1d1effc88f06">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamfef9bc8f-9c7c-4bae-b2f4-1d1effc88f06"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresence"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresence86f91752-8ca0-46ac-a316-a27e3788f3b1">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresence"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream86f91752-8ca0-46ac-a316-a27e3788f3b1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountFloorSub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantCount"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresenceb403d00e-d9bc-447e-9227-f15ef6c39a26">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamb403d00e-d9bc-447e-9227-f15ef6c39a26"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForFloor">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ScheduleActivities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenStream">
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#DoorOpen"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount779df07a-bc6d-48eb-8567-a767f70a9bb8">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount779df07a-bc6d-48eb-8567-a767f70a9bb8"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount0d3c9234-ed5b-4d41-a6e5-406ba6287a13">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount0d3c9234-ed5b-4d41-a6e5-406ba6287a13"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#CountingLine">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCountFloorFloorSub"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresence86f91752-8ca0-46ac-a316-a27e3788f3b1"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToPresencefef9bc8f-9c7c-4bae-b2f4-1d1effc88f06"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount779df07a-bc6d-48eb-8567-a767f70a9bb8"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLineToOccupantCount0d3c9234-ed5b-4d41-a6e5-406ba6287a13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamb403d00e-d9bc-447e-9227-f15ef6c39a26">
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamfef9bc8f-9c7c-4bae-b2f4-1d1effc88f06">
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenStream2">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#DoorOpen"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamFloorSub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Presence"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#PIR">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresenceb403d00e-d9bc-447e-9227-f15ef6c39a26"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PIRToPresence116c468d-a06b-4588-bdfb-cda337fd62bf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForStudyZone">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ScheduleActivities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#DoorOpen">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#DoorOpenAndPIRToPresenceFloorSub"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForTeachingRoom">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ScheduleActivities"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+  </rdf:Description>
+</rdf:RDF>

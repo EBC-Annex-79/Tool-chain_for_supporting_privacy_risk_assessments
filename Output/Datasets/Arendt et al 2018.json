@@ -1,0 +1,1176 @@
+{
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Building_sub": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2Steam": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2Steam1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2Steam2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CO2Steam3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room1544241de-e313-4d35-b4cb-cc3fc00a7951": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room1664c82fa-15f5-43f7-bf75-f16c47236672": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room190955225-b104-4d3f-bab1-e2f6eed0159b": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room1cbd86cbd-e626-44bc-968e-c4dbf5efddbc": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room1d542a9be-a843-4996-8176-0d2f1db0b907": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room20760a7c3-ce43-4a3b-b9ee-c720fa8e1eca": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room22ec11d52-6950-4496-b08a-e36b2eda6132": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room268e83fd7-94d6-4d84-8097-5be68bc7a4a4": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room29b1b75fa-a66d-4af6-b538-68a7ebe2e145": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityStudyZone_Room2db8713d6-1887-4d56-81db-cde21b3bcbd9": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_151e053e8-e85c-4680-bca5-2e0becf9f96f": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_15f05352e-8840-4c6b-a7e7-a7052b203814": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_199091e60-2154-4886-a6c3-0bf5874725de": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_1c2b212d5-5f3b-4164-bb1c-b25297d85581": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_1fcd74488-a56a-4e14-b999-ce1299dcfd40": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_21df755a2-3e9b-4892-ae9e-fb84c7344403": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_225771155-6382-42be-98e5-e9b553916467": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_259ae5367-4a33-439e-9b03-53b7816f8342": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_2ae1ff0a1-d6ce-44fa-830a-7f9c2f3b24dd": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentityTeaching_Room_2ea7bc59a-a78f-4b59-8914-da41d9edad78": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextLocation_input": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#CountingLinesStream3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Floor_2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Floor_3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount2c8b6db8-9b94-4585-9180-55a075e3ada5": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount8590bb01-c9d7-4ec4-af3f-c0e93c40a3b6": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCount8e0397b9-fc26-4749-a536-ed14cef2f6bb": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountFloor_2": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountFloor_3": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCounta739c669-d74b-4b15-b7f9-8afee72219e7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountb422aab7-4f6f-4c42-aeae-929037ddd254": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountc34487bb-c440-4a17-ab1e-d1e5291e7085": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCountd0af63b7-4c7a-4efd-ba27-8cc006519cb7": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantCounte08f40e8-b6cd-4e15-b5c6-cf110f09c4d9": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream05162805-32cc-4ec0-81e0-b0e9a5a0c070": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream20be45e2-e0d6-4d6c-8d06-41960baa689a": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream28e8a200-8635-4330-87c9-4bc08edf1f0d": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream32e1c6af-3005-4d85-b572-d401ba32d9db": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream443aa8d1-10ff-448e-a127-d44130f9ae1a": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream4e3bb3fa-18b5-44b7-8e5e-1ad029f41b47": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream89e83d41-d87b-4d3d-bfe2-69e414962115": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStream9f47441d-8258-48de-9cf4-e7653eaa0670": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreama0338fc9-f2a7-4966-8b8d-4610775d4706": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamd6942202-2e95-44ab-acee-70cf89665b1f": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreamd9e712d7-eef2-439f-82ea-656498d02412": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#PresenceStreame3d41b7f-ee97-4b7e-aeba-052377b6b03f": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivities": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForRoom1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForRoom2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ScheduleActivitiesForRoom3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StudyZone_Room1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StudyZone_Room2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Room_1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Room_2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#VAVStream": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#VAVStream1": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Presence",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Teaching_Performance_based_On_Occupant_Count",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 3,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#VAVStream2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#VAVStream3": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ContextIdentity_Room",
+                "privacy_score": 1,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 1,
+        "type": "Data Stream"
+    }
+}

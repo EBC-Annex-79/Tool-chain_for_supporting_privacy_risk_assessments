@@ -1,0 +1,133 @@
+{
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#AverageBMI_sub": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Global": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 5,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 9,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LivingLab": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 5,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 9,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#MetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a": {
+        "privacy_risks": [],
+        "privacy_score": 0,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesfbc2761a-e136-4416-b618-8251ccd87fa2": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 5,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 5,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsstream": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            },
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 5,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 9,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonModel_sub": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TypicalBodyShape_sub": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight",
+                "privacy_score": 4,
+                "template_count": 2
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    }
+}

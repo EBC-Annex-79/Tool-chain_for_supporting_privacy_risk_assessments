@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#"
+     xml:base="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vunl2="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#">
+    <owl:Ontology rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#">
+        <owl:imports rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates -->
+
+    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates">
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds -->
+
+    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds">
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star -->
+
+    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star">
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#spatialInput -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#spatialInput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#SpatialResolution"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#spatialOutput -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#spatialOutput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#SpatialResolution"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#spatialRequirement -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#spatialRequirement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#SpatialResolution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:subPropertyOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#description"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TemplateCount -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TemplateCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TemporalResolution -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TemporalResolution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeInput -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeInput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeOutput -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeOutput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#description -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#description">
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#name -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#privacyRiskScore -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#privacyRiskScore">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data -->
+
+    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data">
+        <owl:disjointWith rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#SpatialResolution -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#SpatialResolution"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolutionLinear -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolutionLinear">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolutionPair -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolutionPair">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

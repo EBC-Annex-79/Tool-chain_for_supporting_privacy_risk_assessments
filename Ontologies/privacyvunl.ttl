@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#"
+     xml:base="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vunl="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#">
+    <owl:Ontology rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star -->
+
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+        <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Graph -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Graph">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+            <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+            <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+            <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

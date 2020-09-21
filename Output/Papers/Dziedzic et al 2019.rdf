@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:privvuln="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#"
+   xmlns:privvulnv2="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d">
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#LimbMass"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</privvulnv2:TemporalResolution>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassAndLimbSurfaceAreaToMetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#MetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#MetabolicRate"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#MetabolicRate"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</privvulnv2:TemplateCount>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</privvulnv2:TemporalResolution>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesfbc2761a-e136-4416-b618-8251ccd87fa2">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</privvulnv2:TemporalResolution>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesOccupantIdentity8382ddc8-4939-4145-870e-4bb04072c426"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantActivities"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbSurfaceArea"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</privvulnv2:TemporalResolution>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassAndLimbSurfaceAreaToMetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a"/>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</privvulnv2:TemplateCount>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#LimbSurfaceArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonModel">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonModel_sub">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonModel"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsstream">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <privvulnv2:TemporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03</privvulnv2:TemporalResolution>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsToOccupantActivitiesfbc2761a-e136-4416-b618-8251ccd87fa2"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonJoints"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TypicalBodyShape_sub">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#TypicalBodyShape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesOccupantIdentity8382ddc8-4939-4145-870e-4bb04072c426">
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity8382ddc8-4939-4145-870e-4bb04072c426"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesOccupantIdentity"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight"/>
+    <privvuln:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#LimbSurfaceArea">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassAndLimbSurfaceAreaToMetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Weight"/>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</privvulnv2:TemplateCount>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</privvulnv2:privacyRiskScore>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassAndLimbSurfaceAreaToMetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassAndLimbSurfaceAreaToMetabolicRate"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#MetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsToOccupantActivitiesfbc2761a-e136-4416-b618-8251ccd87fa2">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesfbc2761a-e136-4416-b618-8251ccd87fa2"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsToOccupantActivities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#TypicalBodyShape">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMass"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OccupantActivities">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesOccupantIdentity8382ddc8-4939-4145-870e-4bb04072c426"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#AverageBMI">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Global">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Building"/>
+    <privvuln:star rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LivingLab"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TypicalBodyShape_sub"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonModel_sub"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#AverageBMI_sub"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#AverageBMI_sub">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#AverageBMI"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#LimbMass">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLimbSurfaceAreaAndAverageBMIToWeight7ee4de53-5bb4-431b-bd8b-6c9a9af5d21e"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassAndLimbSurfaceAreaToMetabolicRatecbcbb12f-85f0-4b2f-9cc4-e7d0eaae894a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity8382ddc8-4939-4145-870e-4bb04072c426">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity"/>
+    <privvulnv2:privacyRiskScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</privvulnv2:privacyRiskScore>
+    <privvulnv2:TemplateCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</privvulnv2:TemplateCount>
+    <privvulnv2:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is bad!</privvulnv2:description>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LivingLab">
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Room"/>
+    <privvulnv2:has rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsstream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946">
+    <privvulnv2:name rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceArea"/>
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+    <privvulnv2:creates rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonJoints">
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbMassLivingLaba26531a3-4500-4484-87ac-2f71ddac7b4d"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsToOccupantActivitiesfbc2761a-e136-4416-b618-8251ccd87fa2"/>
+    <privvuln:feeds rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SkeletonJointsSkeletonModelAndTypicalBodyShapeToLimbSurfaceAreaLivingLab0e94e376-daa8-4e33-b923-73ac75eed946"/>
+  </rdf:Description>
+</rdf:RDF>

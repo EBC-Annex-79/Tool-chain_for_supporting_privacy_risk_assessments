@@ -1,0 +1,62 @@
+{
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Door": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 4,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantActivitiesRoom": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 4,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Room": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 4,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Context"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#WalkingEventsa077b504-da22-4acd-a7cd-433b39095e78": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 4,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    },
+    "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ultrasonicDistanceStream": {
+        "privacy_risks": [
+            {
+                "privacy_risk_description": "This is bad!",
+                "privacy_risks_name": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#OccupantIdentity",
+                "privacy_score": 4,
+                "template_count": 3
+            }
+        ],
+        "privacy_score": 4,
+        "type": "Data Stream"
+    }
+}

@@ -1,0 +1,141 @@
+@prefix : <https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#> .
+
+<https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#> rdf:type owl:Ontology ;
+                                                                      owl:imports <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#> .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Bedroom
+:Bedroom rdf:type owl:Class ;
+         rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#DiningRoom
+:DiningRoom rdf:type owl:Class ;
+            rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Garage
+:Garage rdf:type owl:Class ;
+        rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Hallway
+:Hallway rdf:type owl:Class ;
+         rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#House
+:House rdf:type owl:Class ;
+       rdfs:subClassOf <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Kitchen
+:Kitchen rdf:type owl:Class ;
+         rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#LivingRoom
+:LivingRoom rdf:type owl:Class ;
+            rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Office
+:Office rdf:type owl:Class ;
+        rdfs:subClassOf :Room .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Outside
+:Outside rdf:type owl:Class ;
+         rdfs:subClassOf <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Room
+:Room rdf:type owl:Class ;
+      rdfs:subClassOf <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#BarometricPressure
+:BarometricPressure rdf:type owl:NamedIndividual ,
+                             <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#GasMeter
+:GasMeter rdf:type owl:NamedIndividual ,
+                   <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Humidity
+:Humidity rdf:type owl:NamedIndividual ,
+                   <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Illuminance
+:Illuminance rdf:type owl:NamedIndividual ,
+                      <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#PowerMeter
+:PowerMeter rdf:type owl:NamedIndividual ,
+                     <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Presence
+:Presence rdf:type owl:NamedIndividual ,
+                   <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Rainfall
+:Rainfall rdf:type owl:NamedIndividual ,
+                   <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Switch
+:Switch rdf:type owl:NamedIndividual ,
+                 <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#Temperature
+:Temperature rdf:type owl:NamedIndividual ,
+                      <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#WindDirection
+:WindDirection rdf:type owl:NamedIndividual ,
+                        <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+###  https://ontology.hviidnet.com/2020/01/03/smarthomeprivacyvunl.ttl#WindSpeed
+:WindSpeed rdf:type owl:NamedIndividual ,
+                    <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries> .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Bedroom
+                :DiningRoom
+                :Garage
+                :Hallway
+                :Kitchen
+                :LivingRoom
+                :Office
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
