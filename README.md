@@ -1,3 +1,15 @@
+# Tool-Chain for Supporting Privacy Risk Assessments
+This repository contains source code for a the tool-Chain for Supporting Privacy Risk Assessments.
+
+## Dependencies
+- `rdflib` RdfLib.
+- `graphviz` graphviz
+
+## Examples
+
+Can be found in the examples folder.
+
+## Paper
 To cite the paper:
 ```
 @inproceedings{Schwee:2020:BuildSys,
@@ -18,5 +30,5 @@ location = {Virtual Event, Japan},
 series = {BuildSys '20}
 ```
 
-License
+## License
 The license for all the data is CC-BY-4.0
