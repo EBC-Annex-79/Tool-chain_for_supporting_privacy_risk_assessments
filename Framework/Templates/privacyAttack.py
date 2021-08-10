@@ -50,6 +50,7 @@ class Util(BaseUtil):
             output_subject = stored_privacy_attack.get_output_subject()
             risk_description  = stored_privacy_attack.get_risk_description()
             privacy_risk_score  = stored_privacy_attack.get_privacy_risk_score()
+            privacy_Strategies  = stored_privacy_attack.get_privacy_Strategies()
 
             inputModel.add((output_subject+template_rand_nr, self.RDF.type, output_data_type))
             inputModel.add((data_obj.template_name+template_rand_nr, self.PRIVVULN.creates, output_subject+template_rand_nr))
@@ -59,6 +60,9 @@ class Util(BaseUtil):
             inputModel.add((output_subject+template_rand_nr, self.PRIVVULNV2.name, output_subject))
             inputModel.add((output_subject+template_rand_nr, self.PRIVVULNV2.description, rdflib.Literal(risk_description)))
             inputModel.add((output_subject+template_rand_nr, self.PRIVVULNV2.privacyRiskScore, rdflib.Literal(privacy_risk_score)))
+            for privacy_Strategy in privacy_Strategies:
+                inputModel.add((output_subject+template_rand_nr, self.PRIVVULNV2.privacyStrategy, rdflib.Literal(privacy_Strategy)))
+
         return inputModel
 
     def get_template_name(self, template):
@@ -95,9 +99,11 @@ class Util(BaseUtil):
 
         context_data_types = self._get_context_data_types(inputModel)
 
+        #import pdb; pdb.set_trace()
+
         context_structure = self._get_input_context_structure(inputModel)
 
-        outpout_type = stored_privacy_attack.get_output_data_type()
+        output_type = stored_privacy_attack.get_output_data_type()
 
         template_name = stored_privacy_attack.get_template_name()
 

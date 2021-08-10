@@ -6,6 +6,7 @@ class OccupantActivitiesToOccupantNetworkRoom(ITransformation):
     __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
 
     def __init__(self):
+        #DOI: 10.1145/3276774.3276779
         self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
         super().__init__(self.__DOMAINNAMESPACE__)
 

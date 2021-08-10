@@ -5,8 +5,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vunl2="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#">
         <owl:imports rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl"/>
     </owl:Ontology>
@@ -35,29 +34,29 @@
 
     <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates -->
 
-    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates">
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#creates">
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
         <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds -->
 
-    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds">
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#feeds">
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#TimeResolution"/>
         <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Constraint"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
     <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star -->
 
-    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star">
+    <owl:ObjectProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star">
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
         <rdfs:range rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
-    </rdf:Description>
+    </owl:ObjectProperty>
     
 
 
@@ -178,6 +177,7 @@
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -189,6 +189,16 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#privacyStrategy -->
+
+    <owl:DatatypeProperty rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#privacyStrategy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -206,9 +216,33 @@
 
     <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data -->
 
-    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data">
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data">
         <owl:disjointWith rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyAttack"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#PrivacyRisk"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Transformation"/>
     
 
 

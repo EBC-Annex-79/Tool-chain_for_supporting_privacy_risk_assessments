@@ -19,17 +19,32 @@ class Util(BaseUtil):
     def __init__(self, domain_path, base_ontology_path, extention_ontology_path):
         super().__init__(domain_path, base_ontology_path, extention_ontology_path)
         self.loaded_transformations = {}
+        self.context_subjects = None
         self.data_creates_from_data_types = None
 
     def _clear_stored_data_types(self):
         self.context_data_types = None
         self.domain_types_from_input_data = None
         self.data_creates_from_data_types = None
+        return
+
+    def _get_context_types(self, inputModel):
+        if self.context_subjects is None:
+            seconds = time.time()
+
+            self.context_subjects = self.inputUtil.find_used_contexts(inputModel)
+        return self.context_subjects
 
     def _get_data_creates_from_data_types(self, inputModel):
         if self.data_creates_from_data_types is None:
             self.data_creates_from_data_types = self.inputUtil.find_all_data_creates_from_data_types(inputModel)
         return self.data_creates_from_data_types
+
+    def _add_element_data_creates_from_data_types(self,key,value,inputModel):
+        self._get_domain_types_from_input_data(inputModel)
+        if not key in self.domain_types_from_input_data: 
+            self.domain_types_from_input_data[key] = []
+        self.domain_types_from_input_data[key].append(value)
 
     def _get_domain_types_from_input_data(self, inputModel):
         if self.domain_types_from_input_data is None:
@@ -114,50 +129,61 @@ class Util(BaseUtil):
                 return inputModel
             elif not self.data_input_in_same_spatial_resultion(combination_of_user_input):
                 inputModel = self.combind_using_template_to_base_context(inputModel, combination_of_user_input, stored_transformation, template, context_url=context)
-            elif not self.spatial_resultion_in_same_context_struckter(combination_of_user_input,spatial_resultion):
-                inputModel = self.combind_using_template_to_super_context(inputModel, combination_of_user_input, stored_transformation, template, spatial_resultion)
+            elif not self.spatial_resultion_in_same_context_struckter(combination_of_user_input,spatial_resultion,context_url=context):
+                amount_of_nodes = len(inputModel)
+                inputModel = self.combind_using_template_to_super_context(inputModel, combination_of_user_input, stored_transformation, template, spatial_resultion,context_url=context)
+                # self.context_data_types = None 
+                # self.domain_types_from_input_data = None #clears the stored model, since it needs to update
+                # self.data_creates_from_data_types = None
+                if amount_of_nodes < len(inputModel):
+                    self._clear_stored_data_types()
+
             else:
-                inputModel = self.combind_using_template_context(inputModel, combination_of_user_input, stored_transformation, template)
+                inputModel = self.combind_using_template_context(inputModel, combination_of_user_input, stored_transformation, template,context_url=context)
 
         #data model updating, therefore can domain_types not be reused, for the next transformation
-        self._clear_stored_data_types()
 
         return inputModel
 
-    def combind_using_template_old(self,inputModel,template,used_data_inputs):
-        stored_transformation = self.get_loaded_transformation(template)
+    # def combind_using_template_old(self,inputModel,template,used_data_inputs):
+    #     stored_transformation = self.get_loaded_transformation(template)
 
-        spatial_resolutions = stored_transformation.get_spatial_relations_for_transformation()
-        spatial_resultion = self._find_output_spatial_resultion_for_transformation(spatial_resolutions,used_data_inputs)
-        if spatial_resultion is None:
-            return inputModel
-        elif not self.spatial_resultion_in_same_context_struckter(used_data_inputs,spatial_resultion):
-            inputModel = self.combind_using_template_to_super_context(inputModel, used_data_inputs, stored_transformation, template, spatial_resultion)
-        else:
-            inputModel = self.combind_using_template_context(inputModel, used_data_inputs, stored_transformation, template)
+    #     spatial_resolutions = stored_transformation.get_spatial_relations_for_transformation()
+    #     spatial_resultion = self._find_output_spatial_resultion_for_transformation(spatial_resolutions,used_data_inputs)
+    #     if spatial_resultion is None:
+    #         return inputModel
+    #     elif not self.spatial_resultion_in_same_context_struckter(used_data_inputs,spatial_resultion):
+    #         inputModel = self.combind_using_template_to_super_context(inputModel, used_data_inputs, stored_transformation, template, spatial_resultion)
+    #     else:
+    #         inputModel = self.combind_using_template_context(inputModel, used_data_inputs, stored_transformation, template)
 
-        #data model updating, therefore can domain_types not be reused, for the next transformation
-        self._clear_stored_data_types()
+    #     #data model updating, therefore can domain_types not be reused, for the next transformation
+    #     self._clear_stored_data_types()
 
-        return inputModel
+    #     return inputModel
 
-    def combind_using_template_to_super_context(self,inputModel,used_data_inputs,stored_transformation, template, spatial_resultion):
+    def combind_using_template_to_super_context(self,inputModel,used_data_inputs,stored_transformation, template, spatial_resultion,context_url=None):
         super_class_name_url = self.find_context_super_class(used_data_inputs,spatial_resultion, inputModel)
         if super_class_name_url is None:
             return inputModel
 
         super_class_name = super_class_name_url.split('#')[-1]
 
+        output_domain_data_type = stored_transformation.get_template_output_domain_data_type()
+
         for data_obj in used_data_inputs:
             inputModel.add((data_obj.subject_name, self.PRIVVULN.feeds, data_obj.template_name+super_class_name))
             inputModel.add((data_obj.domain_data_type, self.PRIVVULN.feeds, data_obj.template_name+super_class_name))
+            self._add_element_data_creates_from_data_types(data_obj.subject_name,output_domain_data_type,inputModel)
 
         inputModel.add((data_obj.template_name+super_class_name, self.RDF.type, self.PRIVVULN.Transformation))
         inputModel.add((data_obj.template_name+super_class_name, self.PRIVVULNV2.name, data_obj.template_name))
 
         output_subjet = stored_transformation.get_template_output_subject()
         output_data_type = stored_transformation.get_template_template_output_data_type()
-        output_domain_data_type = stored_transformation.get_template_output_domain_data_type()
+        self._add_element_data_creates_from_data_types(output_subjet,output_domain_data_type,inputModel)
+
+        self._add_element_data_creates_from_data_types(super_class_name_url,output_domain_data_type,inputModel)
 
         inputModel.add((output_subjet+super_class_name, self.RDF.type, output_domain_data_type))
         inputModel.add((output_subjet+super_class_name, self.RDF.type, output_data_type))
@@ -182,6 +208,16 @@ class Util(BaseUtil):
         template_count = self._find_template_count(used_data_inputs)
         inputModel.add((output_subjet+super_class_name, self.PRIVVULNV2.TemplateCount, rdflib.Literal(template_count)))
 
+        context_types = self._get_context_types(inputModel)
+
+        self._get_context_data_types(inputModel)[context_url].append(
+            Data(
+                output_data_type, time_resultion,subject_name=output_subjet+super_class_name, 
+                template_count= template_count, context_subject=context_url, 
+                # spatial_resolutions=rdflib.term.URIRef('https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Room'), 
+                context= context_types[context_url]))
+                # domain_data_type, temporal_resolutions,subject_name, template_count, context, context_subject
+        
         return inputModel
 
     def combind_using_template_to_base_context(self,inputModel,used_data_inputs,stored_transformation, template, context_url):
@@ -191,16 +227,19 @@ class Util(BaseUtil):
 
         class_name = context_subject_url.split('#')[-1] + template_rand_nr
 
+        output_domain_data_type = stored_transformation.get_template_output_domain_data_type()
+
         for data_obj in used_data_inputs:
             inputModel.add((data_obj.subject_name, self.PRIVVULN.feeds, data_obj.template_name+class_name))
             inputModel.add((data_obj.domain_data_type, self.PRIVVULN.feeds, data_obj.template_name+class_name))
+            self._add_element_data_creates_from_data_types(data_obj.subject_name,output_domain_data_type,inputModel)
 
         inputModel.add((data_obj.template_name+class_name, self.RDF.type, self.PRIVVULN.Transformation))
         inputModel.add((data_obj.template_name+class_name, self.PRIVVULNV2.name, data_obj.template_name))
 
         output_subjet = stored_transformation.get_template_output_subject()
         output_data_type = stored_transformation.get_template_template_output_data_type()
-        output_domain_data_type = stored_transformation.get_template_output_domain_data_type()
+        self._add_element_data_creates_from_data_types(output_subjet,output_domain_data_type,inputModel)
 
         inputModel.add((output_subjet+class_name, self.RDF.type, output_domain_data_type))
         inputModel.add((output_subjet+class_name, self.RDF.type, output_data_type))
@@ -225,21 +264,38 @@ class Util(BaseUtil):
         template_count = self._find_template_count(used_data_inputs)
         inputModel.add((output_subjet+class_name, self.PRIVVULNV2.TemplateCount, rdflib.Literal(template_count)))
 
+        context_types = self._get_context_types(inputModel)
+        
+        self._get_context_data_types(inputModel)[context_url].append(
+            Data(
+                output_domain_data_type, time_resultion,
+                subject_name=output_subjet+class_name, 
+                template_count= template_count, 
+                context_subject=context_url, 
+                # spatial_resolutions=rdflib.term.URIRef('https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Room'), 
+                context= context_types[context_url]))
+                # domain_data_type, temporal_resolutions,subject_name, template_count, context, context_subject
+
+
         return inputModel
 
-    def combind_using_template_context(self,inputModel,used_data_inputs, stored_transformation, template):
+    def combind_using_template_context(self,inputModel,used_data_inputs, stored_transformation, template,context_url=None):
         template_rand_nr = uuid.uuid4().__str__()
+
+        output_domain_data_type = stored_transformation.get_template_output_domain_data_type()
 
         for data_obj in used_data_inputs:
             inputModel.add((data_obj.subject_name, self.PRIVVULN.feeds, data_obj.template_name+template_rand_nr))
             inputModel.add((data_obj.domain_data_type, self.PRIVVULN.feeds, data_obj.template_name+template_rand_nr))
+            self._add_element_data_creates_from_data_types(data_obj.subject_name,output_domain_data_type, inputModel)
 
         inputModel.add((data_obj.template_name+template_rand_nr, self.RDF.type, self.PRIVVULN.Transformation))
         inputModel.add((data_obj.template_name+template_rand_nr, self.PRIVVULNV2.name, data_obj.template_name))
 
         output_subjet = stored_transformation.get_template_output_subject()
         output_data_type = stored_transformation.get_template_template_output_data_type()
-        output_domain_data_type = stored_transformation.get_template_output_domain_data_type()
+
+        self._add_element_data_creates_from_data_types(output_subjet,output_domain_data_type, inputModel)
 
         # output_subjet, output_data_type, output_domain_data_type = self._find_output_for_template(template)
 
@@ -258,10 +314,20 @@ class Util(BaseUtil):
         template_count = self._find_template_count(used_data_inputs)
         inputModel.add((output_subjet+template_rand_nr, self.PRIVVULNV2.TemplateCount, rdflib.Literal(template_count)))
 
+        context_types = self._get_context_types(inputModel)
+        
+        self._get_context_data_types(inputModel)[context_url].append(
+            Data(
+                output_domain_data_type, time_resultion,subject_name=output_subjet+template_rand_nr, 
+                template_count= template_count, context_subject=context_url, 
+                # spatial_resolutions=rdflib.term.URIRef('https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Room'), 
+                context= context_types[context_url]))
+                # domain_data_type, temporal_resolutions,subject_name, template_count, context, context_subject
+
         return inputModel
 
 
-    def spatial_resultion_in_same_context_struckter(self,used_data_inputs,spatial_resultion):
+    def spatial_resultion_in_same_context_struckter(self,used_data_inputs,spatial_resultion,context_url=None):
         for used_data_input in used_data_inputs:
             if not self._context_match(spatial_resultion,used_data_input.spatial_resolutions):
                 return False
@@ -425,19 +491,36 @@ class Util(BaseUtil):
 
 
     def can_template_be_used(self,inputModel, template):
+        seconds = time.time()
+
         loaded_tempated = self.get_loaded_transformation(template)
 
         template_needed_data_types = loaded_tempated.get_model_requeued_data_types()
 
         context_structure = self._get_input_context_structure(inputModel)
-
+        # print("step 1 init can_template_be_used time in seconds:", time.time()- seconds)
+        
+        seconds = time.time()
+        #App 0.2 S
         context_data_types = self._get_context_data_types(inputModel)
+        # print("step 2 init can_template_be_used time in seconds:", time.time()- seconds)
+       
+        # import pdb; pdb.set_trace()
 
+        seconds = time.time()
+        #app 1.2 S
         domain_data_types_found_using_transformations = self._get_domain_types_from_input_data(inputModel)
+        # print("step 3 init can_template_be_used time in seconds:", time.time()- seconds)
 
+        seconds = time.time()
+        #app 0.3 S
         data_creates_from_data_types = self._get_data_creates_from_data_types(inputModel)
+        # print("step 4 init can_template_be_used time in seconds:", time.time()- seconds)
 
+        seconds = time.time()
+        #app 0.1 S
         outpout_type = loaded_tempated.get_template_output_domain_data_type()
+        # print("step 5 init can_template_be_used time in seconds:", time.time()- seconds)
 
         template_name = loaded_tempated.get_template_name()
 

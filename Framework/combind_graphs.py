@@ -1,4 +1,3 @@
-import pandas
 from rdflib import Graph, Namespace, URIRef, Literal, exceptions
 import rdflib
 import rdflib.plugin

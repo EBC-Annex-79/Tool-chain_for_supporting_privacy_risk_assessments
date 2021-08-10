@@ -1,3 +1,4 @@
+import pdb
 from sys import argv
 from os import listdir
 from os.path import exists
@@ -72,7 +73,7 @@ class Analysis:
                 PREFIX pv2:     <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#>
                 PREFIX owl:   <http://www.w3.org/2002/07/owl#>
 
-                SELECT ?context ?directDataInputName ?privacy_attack_name ?privacy_risk_name ?templateCount ?description
+                SELECT ?context ?directDataInputName ?privacy_attack_name ?privacy_risk_name ?templateCount ?description ?privacyStrategy ?privacy_risk_subject
                 WHERE {
                         ?privacy_risk_subject rdf:type pv:PrivacyRisk .
                         ?privacy_risk_subject pv2:name ?privacy_risk_name .
@@ -95,6 +96,9 @@ class Analysis:
                     OPTIONAL {
                          ?privacy_risk_subject pv2:description ?description .
                     }.
+                     OPTIONAL {
+                         ?privacy_risk_subject pv2:privacyStrategy ?privacyStrategy .
+                    }.
 
                 }
                 """
@@ -103,10 +107,20 @@ class Analysis:
 
         supported_data_types = {}
 
+        privacy_risk_subject = {}
+
         for row in ro:
             if not row[0] in supported_data_types : supported_data_types[row[0]] = []
             template_count =  0 if row[4] is None else  int(row[4])
-            supported_data_types[row[0]].append(PrivacyRisk(row[0], row[1], row[2], row[3], template_count, row[5].value))
+            privacyStrategy =  None if row[6] is None else [row[6].value]
+            privacyRisk = None
+            if not row[7] in privacy_risk_subject:
+                privacyRisk = PrivacyRisk(row[0], row[1], row[2], row[3], template_count, row[5].value, privacyStrategy)
+                supported_data_types[row[0]].append(privacyRisk)
+                privacy_risk_subject[row[7]] = privacyRisk
+            elif privacyStrategy is not None:
+                privacyRisk = privacy_risk_subject[row[7]]
+                privacyRisk.privacyStrategies.append(privacyStrategy)
         return supported_data_types
 
     def find_privacy_scores(self, input_model, nameing_of_output = None):
@@ -130,8 +144,9 @@ class Analysis:
             }
             list(privacy_risks_list.values())
             json_contexts[context_structure] = json_object
-        with open(nameing_of_output +".json", 'w') as fo:
-            fo.writelines(json.dumps(json_contexts, sort_keys=True, indent=4, separators=(',', ': ')))
+        if nameing_of_output is not None:
+            with open(nameing_of_output +".json", 'w') as fo:
+                fo.writelines(json.dumps(json_contexts, sort_keys=True, indent=4, separators=(',', ': ')))
         return json_contexts
 
     def _add_contexts(self, input_model,context_subject,json_contexts, usered_risks):
@@ -219,6 +234,7 @@ class Analysis:
         description = ""
         template_count = ""
         privacy_risks_name = ""
+        privacy_strategies = []
         try:
             privacy_score = input_model.value(predicate = self.PRIVVULNV2.privacyRiskScore, subject=data_subject, any = False)
             description = input_model.value(predicate = self.PRIVVULNV2.description, subject=data_subject, any = False)
@@ -226,11 +242,15 @@ class Analysis:
             privacy_risks_name = input_model.value(predicate = self.PRIVVULNV2.name, subject=data_subject, any = False)
         except rdflib.exceptions.UniquenessError:
             return 0
+        for privacyStrategy in input_model.objects(data_subject, self.PRIVVULNV2.privacyStrategy):
+            # import pdb; pdb.set_trace()
+            privacy_strategies.append(privacyStrategy)
         privacy_score = privacy_score.value
         json_object = {
             "privacy_risks_name" : privacy_risks_name,
             "privacy_risk_description" : description.value,
             "privacy_score" : privacy_score,
+            "privacy_strategies" : privacy_strategies,
             "template_count" : template_count.value
         }
         self.total_score =  self.total_score + privacy_score

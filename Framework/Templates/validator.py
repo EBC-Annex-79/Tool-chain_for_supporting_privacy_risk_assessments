@@ -299,7 +299,6 @@ class Input_validator(Validator):
         super().__init__(domain_path,base_ontology_path, extention_ontology_path)
 
     def validate(self, template, class_name=None):
-        # import pdb; pdb.set_trace()
         input_util = InputUtil(self.domain_path, self.base_ontology_path, self.extention_ontology_path)
         data_inputs = input_util.find_used_data_types(template)
         contexts = input_util.find_used_contexts(template)
@@ -310,6 +309,7 @@ class Input_validator(Validator):
                 if subject in data_inputs.keys():
                     found_relation = True
                 else:
+                    # import pdb; pdb.set_trace()
                     print("%s used a none supported datatype"%subject)
                     validate = False
                     break
@@ -336,7 +336,7 @@ class Input_validator(Validator):
                     validate = False
                     break
             if not found_relation:
-                import pdb; pdb.set_trace()
+                import pdb; pdb.set_trace() 
                 validate = False
                 break
             if (key, self.RDF.type, self.PRIVVULN.TimeSeries) in template:
@@ -345,10 +345,9 @@ class Input_validator(Validator):
                     #Only one transformation
                     value = template.value(subject=key, predicate = self.PRIVVULNV2.TemporalResolution, any = False, default=None)
                 except rdflib.exceptions.UniquenessError:
-                    # import pdb; pdb.set_trace()
+                    import pdb; pdb.set_trace()
                     validate = False
-
                 if value is None or type(value) != rdflib.term.Literal or value.datatype != rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#double') or value.value < 0:
-                    # import pdb; pdb.set_trace()
+                    import pdb; pdb.set_trace()
                     validate = False
         return validate

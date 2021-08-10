@@ -35,8 +35,7 @@ g1.bind('sbuilding',SBUILDING)
 M = Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
 g1.bind('m', M)
 
-
-door = M['Door']
+door = M['door']
 g1.add((door, RDF.type, SBUILDING.Door))
 
 ultrasonicDistanceStream = M['ultrasonicDistanceStream']
@@ -49,11 +48,11 @@ room = M['Room']
 g1.add((room, RDF.type, SBUILDING.Room))
 g1.add((room, PRIVVULN.star, door))
 
-driver = Driver()
+driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/"
-outputName = "Khalil et al 2019"
+folder = "output/paper/TORS/"
+outputName = "10.1145-3137133.3137154"
 
 g1 = driver.run(g1, folder + outputName)
 

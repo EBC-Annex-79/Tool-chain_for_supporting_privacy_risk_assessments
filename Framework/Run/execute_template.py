@@ -46,14 +46,18 @@ def run_analyses(json):
             continue
         subject = M[node["name"]]
         g1.add((subject, RDF.type, rdflib.term.URIRef(node["type"])))
+        if "superType" in node and node["superType"] != "" and node["superType"] and node["superType"] != str(PRIVVULNV2.Context):
+            g1.add((subject, RDF.type, rdflib.term.URIRef(node["superType"])))
+            
 
         if "attributes" in node:
             for attribute in node["attributes"]:
                 if "name" not in attribute and "value" not in attribute and "dataType" not in attribute:
                     continue
+
                 if attribute["dataType"] == "int" or attribute["dataType"] == "double" or attribute["dataType"] == "string":
-                    # "xsd" and "sbuilding" might not work
-                    g1.add((subject, rdflib.term.URIRef(str(SBUILDING) + attribute["name"]), Literal(attribute["value"], datatype=rdflib.term.URIRef(str(XSD)+ attribute["dataType"]))))
+                    if attribute["value"] != '' and attribute["value"] != None:
+                        g1.add((subject, rdflib.term.URIRef(str(PRIVVULNV2) + attribute["name"]), Literal(attribute["value"], datatype=rdflib.term.URIRef(str(XSD)+ attribute["dataType"]))))
 
     for link  in links:
         if "subject" not in link and "predicate" not in link and "object" not in link:
@@ -63,11 +67,15 @@ def run_analyses(json):
     driver = Driver(debug_mode=True)
     print("graph has %s statements." % len(g1))
 
-    folder = "output/"
-    outputName = "test"
+    g1, risk_results,graph  = driver.run_with_output(g1)
 
-    g1 = driver.run(g1, folder + outputName)
+    print("graph has %s statements." % len(g1))
 
-    # print("graph has %s statements." % len(g1))
+    returnJson = {
+        'graph' :   str(graph.source),
+        'privacy_report' :   risk_results,
+    }
+
+    return returnJson
 
     # g1.serialize(folder+outputName+".rdf")

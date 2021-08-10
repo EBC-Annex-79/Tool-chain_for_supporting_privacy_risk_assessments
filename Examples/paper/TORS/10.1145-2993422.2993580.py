@@ -35,25 +35,26 @@ g1.bind('sbuilding',SBUILDING)
 M = Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
 g1.bind('m', M)
 
-
-door = M['Door']
-g1.add((door, RDF.type, SBUILDING.Door))
-
-ultrasonicDistanceStream = M['ultrasonicDistanceStream']
-g1.add((ultrasonicDistanceStream, RDF.type, SBUILDING.UltrasonicDistance))
-g1.add((ultrasonicDistanceStream, RDF.type, PRIVVULN.TimeSeries))
-g1.add((ultrasonicDistanceStream, PRIVVULNV2.TemporalResolution, Literal("0", datatype=XSD.double)))
-g1.add((door, PRIVVULNV2.has, ultrasonicDistanceStream))
-
-room = M['Room']
+room = M['room']
 g1.add((room, RDF.type, SBUILDING.Room))
-g1.add((room, PRIVVULN.star, door))
 
-driver = Driver()
+ultrasonicSpeaker = M['UltrasonicSpeaker']
+g1.add((ultrasonicSpeaker, RDF.type, SBUILDING.UltrasonicSpeaker))
+g1.add((ultrasonicSpeaker, RDF.type, PRIVVULN.TimeSeries))
+g1.add((ultrasonicSpeaker, PRIVVULNV2.TemporalResolution, Literal("120", datatype=XSD.double)))
+g1.add((room, PRIVVULNV2.has, ultrasonicSpeaker))
+
+ultrasonicMicrophone = M['UltrasonicMicrophone']
+g1.add((ultrasonicMicrophone, RDF.type, SBUILDING.UltrasonicMicrophone))
+g1.add((ultrasonicMicrophone, RDF.type, PRIVVULN.TimeSeries))
+g1.add((ultrasonicMicrophone, PRIVVULNV2.TemporalResolution, Literal("120", datatype=XSD.double)))
+g1.add((room, PRIVVULNV2.has, ultrasonicMicrophone))
+
+driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/"
-outputName = "Khalil et al 2019"
+folder = "output/paper/TORS/"
+outputName = "10.1145-2993422.2993580"
 
 g1 = driver.run(g1, folder + outputName)
 

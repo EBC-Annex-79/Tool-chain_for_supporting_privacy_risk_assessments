@@ -44,16 +44,13 @@ def get_dokumentation():
     }
     return "<h1>Privacy risk anslyses</h1> <p>Use endpoint POST /api/v1</p> <p> JSON object to pass:<p/><p>" + json.dumps(json_obj, indent=4, sort_keys=True) + "</p>"
 
-
 @app.route('/api/v1', methods=['POST'])
 def run_analyses():
     json_obj = request.json
     if "nodes" in json_obj and "links" in json_obj and "namespace" in json_obj:
-        execute_template.run_analyses(json_obj)
+        return execute_template.run_analyses(json_obj)
     else:
         return "Error"
-
-    return "<h1>Distant Reading Archive</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
 
 @app.route('/echo', methods=['POST'])
 def hello():

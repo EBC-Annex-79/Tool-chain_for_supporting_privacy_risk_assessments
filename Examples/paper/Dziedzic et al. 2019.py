@@ -66,7 +66,7 @@ g1.add((building, PRIVVULNV2.has, skeletonJoints))
 driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/papers/"
+folder = "output/paper/"
 outputName = "Dziedzic et al 2019"
 
 g1 = driver.run(g1, folder + outputName)

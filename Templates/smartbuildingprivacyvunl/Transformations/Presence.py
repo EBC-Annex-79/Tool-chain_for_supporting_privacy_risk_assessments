@@ -222,3 +222,79 @@ class VAVToPresence(ITransformation):
         self.graph.add((presenceStream, self.RDF.type, self.__DOMAINNAMESPACE__.Presence))
         self.graph.add((vAVToPresence, self.PRIVVULN['feeds'], presenceStream))
         self.graph.add((presenceStream, self.RDF.type, self.PRIVVULN.TimeSeries))
+
+class ChannelStateInformationToPresence(ITransformation):
+    __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
+
+    def __init__(self):
+        #doi: 10.1145/3408308.3427624
+        #doi: 10.1145/3408308.3427983
+        #doi: 10.1145/2993422.2993579
+        self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
+        super().__init__(self.__DOMAINNAMESPACE__)
+
+    def _build_model(self):
+        inputNode = self.MODELS['inputRequirement1']
+        self.graph.add((inputNode, self.RDF.type, self.PRIVVULNV2.Constraint))
+        self.graph.add((inputNode, self.PRIVVULNV2.TemporalResolution, Literal("0.1", datatype=self.XSD.double)))
+        self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Room))
+        self.graph.add((inputNode, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.ChannelStateInformation))
+
+        timeResolutionLinear1 = self.MODELS['timeResolutionLinear1']
+        self.graph.add((timeResolutionLinear1, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
+        self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((inputNode, self.PRIVVULN.feeds, timeResolutionLinear1))
+
+        channelStateInformationToPresence = self.MODELS['ChannelStateInformationToPresence']
+        self.graph.add((channelStateInformationToPresence, self.RDF.type, self.PRIVVULN.Transformation))
+        self.graph.add((inputNode, self.PRIVVULN['feeds'], channelStateInformationToPresence))
+
+        presence = self.MODELS['Presence']
+        self.graph.add((presence, self.RDF.type, self.PRIVVULN.TimeSeries))
+        self.graph.add((presence, self.RDF.type, self.__DOMAINNAMESPACE__.Presence))
+        self.graph.add((channelStateInformationToPresence, self.PRIVVULN.feeds, presence))
+
+class UltrasonicSpeakerUltrasonicMicToPresence(ITransformation):
+    __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
+
+    def __init__(self):
+        #doi: 10.1145/2993422.2993580
+        self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
+        super().__init__(self.__DOMAINNAMESPACE__)
+
+    def _build_model(self):
+        inputNode = self.MODELS['inputRequirement1']
+        self.graph.add((inputNode, self.RDF.type, self.PRIVVULNV2.Constraint))
+        self.graph.add((inputNode, self.PRIVVULNV2.TemporalResolution, Literal("120", datatype=self.XSD.double)))
+        self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Room))
+        self.graph.add((inputNode, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.UltrasonicSpeaker))
+
+        timeResolutionLinear1 = self.MODELS['timeResolutionLinear1']
+        self.graph.add((timeResolutionLinear1, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
+        self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((inputNode, self.PRIVVULN.feeds, timeResolutionLinear1))
+
+        inputNode2 = self.MODELS['inputRequirement2']
+        self.graph.add((inputNode2, self.RDF.type, self.PRIVVULNV2.Constraint))
+        self.graph.add((inputNode2, self.PRIVVULNV2.TemporalResolution, Literal("120", datatype=self.XSD.double)))
+        self.graph.add((inputNode2, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Room))
+        self.graph.add((inputNode2, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.UltrasonicMicrophone))
+
+        timeResolutionLinear2 = self.MODELS['timeResolutionLinear2']
+        self.graph.add((timeResolutionLinear2, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
+        self.graph.add((timeResolutionLinear2, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((timeResolutionLinear2, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((inputNode2, self.PRIVVULN.feeds, timeResolutionLinear2))
+
+        ultrasonicSpeakerUltrasonicMicToPresence = self.MODELS['UltrasonicSpeakerUltrasonicMicToPresence']
+        self.graph.add((ultrasonicSpeakerUltrasonicMicToPresence, self.RDF.type, self.PRIVVULN.Transformation))
+        self.graph.add((inputNode, self.PRIVVULN['feeds'], ultrasonicSpeakerUltrasonicMicToPresence))
+        self.graph.add((inputNode2, self.PRIVVULN['feeds'], ultrasonicSpeakerUltrasonicMicToPresence))
+
+        presence = self.MODELS['Presence']
+        self.graph.add((presence, self.RDF.type, self.PRIVVULN.TimeSeries))
+        self.graph.add((presence, self.RDF.type, self.__DOMAINNAMESPACE__.Presence))
+        self.graph.add((ultrasonicSpeakerUltrasonicMicToPresence, self.PRIVVULN.feeds, presence))
+        

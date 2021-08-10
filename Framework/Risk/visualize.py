@@ -1,3 +1,4 @@
+from pdb import Pdb
 from sys import argv
 from os import listdir
 import json
@@ -25,11 +26,9 @@ class Visualize_full:
         edges = []
         names = {}
 
-        # import pdb; pdb.set_trace()
         contexts = self.find_contexts(self.input_model)
 
         for subject in contexts:
-            # import pdb; pdb.set_trace()
             self._add_context(graph,edges, names, subject)
 
         # export to dot
@@ -50,7 +49,7 @@ class Visualize_full:
         context_name = self._name(context_subject)
         if not context_subject in names:
             names[context_subject] = context_name
-            graph.node(context_name, context_name, color='green', style='filled')
+            graph.node(context_name, context_name, color='#999999', style='filled')
 
         if parent is not None and not (parent, context_name) in edges:
             edges.append((parent, context_name))
@@ -64,13 +63,14 @@ class Visualize_full:
 
     def _add_datastream(self,graph, edges, names, entity, parent,label=None):
         datastream_base_subject = self._get_model_base_name(entity)
+        color = self._find_color_for_data_subject(entity)
 
         datastream_name_label = self._name(datastream_base_subject)
         datastream_name = self._name(entity)
 
         if not entity in names:
             names[entity] = datastream_name
-            graph.node(datastream_name, label=datastream_name_label, color='yellow', style='filled')
+            graph.node(datastream_name, label=datastream_name_label, color=color, style='filled')
         if not (parent, datastream_name) in edges:
             edges.append((parent, datastream_name))
             graph.edge(parent, datastream_name, color='black', label=label)
@@ -96,7 +96,7 @@ class Visualize_full:
 
         if not entity in names:
             names[entity] = transformation_name
-            graph.node(transformation_name, label=transformation_name_label, color='blue', style='filled')
+            graph.node(transformation_name, label=transformation_name_label, color='#A65628', style='filled')
         if not (parent, transformation_name) in edges:
             edges.append((parent, transformation_name))
             graph.edge(parent, transformation_name, color='black')
@@ -115,7 +115,7 @@ class Visualize_full:
 
         if not entity in names:
             names[entity] = privacy_attack_name
-            graph.node(privacy_attack_name, label=privacy_attack_name_label, color='purple', style='filled')
+            graph.node(privacy_attack_name, label=privacy_attack_name_label, color='#FFFF33', style='filled')
         if not (parent, privacy_attack_name) in edges:
             edges.append((parent, privacy_attack_name))
             graph.edge(parent, privacy_attack_name, color='black')
@@ -130,7 +130,7 @@ class Visualize_full:
         privacy_risk_name = self._name(privacy_risk_base_subject)
         if not privacy_risk_base_subject in names:
             names[privacy_risk_base_subject] = privacy_risk_name
-            graph.node(privacy_risk_name, privacy_risk_name, color='red', style='filled')
+            graph.node(privacy_risk_name, privacy_risk_name, color='#E41A1C', style='filled')
         if not (parent, privacy_risk_name) in edges:
             edges.append((parent, privacy_risk_name))
             graph.edge(parent, privacy_risk_name, color='black', label=label)
@@ -168,5 +168,21 @@ class Visualize_full:
             contexts.append(row[0])
         # import pdb; pdb.set_trace()
         return contexts
+
+
+    def _find_color_for_data_subject(self,subject):
+        if (subject, self.RDF.type,self.PRIVVULN.TimeSeries) in self.input_model:
+            return "#377EB8" #Blue - 1
+        if (subject, self.RDF.type,self.PRIVVULN.External) in self.input_model:
+            return "#4DAF4A" #Green - 2
+        if (subject, self.RDF.type,self.PRIVVULN.Graph) in self.input_model:
+            return "#984EA3" #Pink - 3
+        if (subject, self.RDF.type,self.PRIVVULN.Metadata) in self.input_model:
+            return "#FF7F00" #Orange - 4
+        return "#FFFFFF"
+
+
+
+
 
 

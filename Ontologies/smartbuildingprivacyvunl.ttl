@@ -25,6 +25,38 @@
     
 
 
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Graph -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Graph">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata -->
+
+    <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries -->
+
+    <rdf:Description rdf:about="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries">
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Data"/>
+    </rdf:Description>
+    
+
+
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Atrium_Room -->
 
     <owl:Class rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Atrium_Room">
@@ -405,6 +437,38 @@
     
 
 
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Camera -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Camera">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ChannelStateInformation -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ChannelStateInformation">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ClothingInsulation -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ClothingInsulation">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ComfortLevel -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ComfortLevel">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation -->
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ContextLocation">
@@ -453,6 +517,14 @@
     
 
 
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#GalvanicSkinResponseFeedback -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#GalvanicSkinResponseFeedback">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#GasMeter -->
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#GasMeter">
@@ -473,6 +545,14 @@
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#HeartRate">
         <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Height -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Height">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
     </owl:NamedIndividual>
     
 
@@ -581,6 +661,14 @@
     
 
 
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OutdoorHumidity -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OutdoorHumidity">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OutdoorTemperature -->
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#OutdoorTemperature">
@@ -677,6 +765,14 @@
     
 
 
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ShoulderCircumference -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ShoulderCircumference">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonJoints -->
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonJoints">
@@ -689,6 +785,14 @@
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkeletonModel">
         <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#External"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkinTemperature -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#SkinTemperature">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
     </owl:NamedIndividual>
     
 
@@ -725,6 +829,31 @@
     
 
 
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ThermalCamera -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ThermalCamera">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Timestamp -->
+    
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Timestamp">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    </owl:NamedIndividual>
+
+    
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ThermalComfort -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#ThermalComfort">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Thermometer -->
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Thermometer">
@@ -744,6 +873,22 @@
     <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#UltrasonicDistance -->
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#UltrasonicDistance">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#UltrasonicMicrophone -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#UltrasonicMicrophone">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#UltrasonicSpeaker -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#UltrasonicSpeaker">
         <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
     </owl:NamedIndividual>
     
@@ -785,6 +930,14 @@
 
     <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#WebQueryLog">
         <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Wight -->
+
+    <owl:NamedIndividual rdf:about="https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Wight">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Metadata"/>
     </owl:NamedIndividual>
     
 

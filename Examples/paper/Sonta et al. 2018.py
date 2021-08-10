@@ -76,7 +76,7 @@ g1.add((floor, PRIVVULN.star, single_Office_Room))
 driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/papers/"
+folder = "output/paper/"
 outputName = "Sonta et al 2019"
 
 g1 = driver.run(g1, folder + outputName)

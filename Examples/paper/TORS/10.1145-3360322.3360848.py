@@ -35,25 +35,26 @@ g1.bind('sbuilding',SBUILDING)
 M = Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
 g1.bind('m', M)
 
-
-door = M['Door']
-g1.add((door, RDF.type, SBUILDING.Door))
-
-ultrasonicDistanceStream = M['ultrasonicDistanceStream']
-g1.add((ultrasonicDistanceStream, RDF.type, SBUILDING.UltrasonicDistance))
-g1.add((ultrasonicDistanceStream, RDF.type, PRIVVULN.TimeSeries))
-g1.add((ultrasonicDistanceStream, PRIVVULNV2.TemporalResolution, Literal("0", datatype=XSD.double)))
-g1.add((door, PRIVVULNV2.has, ultrasonicDistanceStream))
-
-room = M['Room']
+room = M['room']
 g1.add((room, RDF.type, SBUILDING.Room))
-g1.add((room, PRIVVULN.star, door))
 
-driver = Driver()
+thermalCamera = M['ThermalCamera']
+g1.add((thermalCamera, RDF.type, SBUILDING.ThermalCamera))
+g1.add((thermalCamera, RDF.type, PRIVVULN.TimeSeries))
+g1.add((thermalCamera, PRIVVULNV2.TemporalResolution, Literal("1.0", datatype=XSD.double)))
+g1.add((room, PRIVVULNV2.has, thermalCamera))
+
+camera = M['Camera']
+g1.add((camera, RDF.type, SBUILDING.Camera))
+g1.add((camera, RDF.type, PRIVVULN.TimeSeries))
+g1.add((camera, PRIVVULNV2.TemporalResolution, Literal("1.0", datatype=XSD.double)))
+g1.add((room, PRIVVULNV2.has, camera))
+
+driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/"
-outputName = "Khalil et al 2019"
+folder = "output/paper/TORS/"
+outputName = "10.1145-3360322.3360848"
 
 g1 = driver.run(g1, folder + outputName)
 

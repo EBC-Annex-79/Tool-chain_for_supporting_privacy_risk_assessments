@@ -4,10 +4,21 @@ This repository contains source code for a the tool-Chain for Supporting Privacy
 ## Dependencies
 - `rdflib` RdfLib.
 - `graphviz` graphviz
+- `requests` requests
+- `Flask` for running the api.
 
 ## Examples
 
 Can be found in the examples folder.
+
+## Docker
+If you will like to use docker to run the tool-chain. 
+We have created a dockerfile.
+Run the following commands from the rode folder:
+```
+docker build --tag privacy-tool-chain .
+docker run -d -p 5002:5002 privacy-tool-chain
+```
 
 ## Paper
 To cite the paper:

@@ -6,6 +6,7 @@ class CountingLineToOccupantCountRoom(ITransformation):
     __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
 
     def __init__(self):
+        #10.1145/2993422.2993575
         self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
         super().__init__(self.__DOMAINNAMESPACE__)
 
@@ -69,13 +70,13 @@ class PresenceCO2AndTemperatureToOccupantCount(ITransformation):
         self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
         self.graph.add((inputNode, self.PRIVVULN.feeds, timeResolutionLinear1))
 
-        timeResolutionLinear2 = self.MODELS['timeResolutionLinear1']
+        timeResolutionLinear2 = self.MODELS['timeResolutionLinear2']
         self.graph.add((timeResolutionLinear2, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
         self.graph.add((timeResolutionLinear2, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
         self.graph.add((timeResolutionLinear2, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
         self.graph.add((inputNode2, self.PRIVVULN.feeds, timeResolutionLinear2))
 
-        timeResolutionLinear3 = self.MODELS['timeResolutionLinear1']
+        timeResolutionLinear3 = self.MODELS['timeResolutionLinear3']
         self.graph.add((timeResolutionLinear3, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
         self.graph.add((timeResolutionLinear3, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
         self.graph.add((timeResolutionLinear3, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
@@ -90,6 +91,7 @@ class CountingLineToOccupantCountFloor(ITransformation):
     __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
 
     def __init__(self):
+        #10.1145/2993422.2993575
         self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
         super().__init__(self.__DOMAINNAMESPACE__)
 
@@ -125,7 +127,8 @@ class CountingLineToOccupantCountFloor(ITransformation):
 
 class CO2ToOccupantCount(ITransformation):
     __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
-    # doi:10.1016/j.enbuild.2010.01.016
+    #doi: 10.1016/j.enbuild.2010.01.016
+    #doi: 10.1145/3137133.3137146
 
     def __init__(self):
         self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
@@ -137,7 +140,7 @@ class CO2ToOccupantCount(ITransformation):
         self.graph.add((inputNode, self.PRIVVULNV2.TemporalResolution, Literal("60", datatype=self.XSD.double)))
         self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Room))
         self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Zone))
-        self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.DESK))
+        self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Desk))
         self.graph.add((inputNode, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.CO2))
 
         cO2ToOccupantCount = self.MODELS['CO2ToOccupantCount']
@@ -154,6 +157,50 @@ class CO2ToOccupantCount(ITransformation):
         self.graph.add((occupantCount, self.RDF.type, self.__DOMAINNAMESPACE__.OccupantCount))
         self.graph.add((occupantCount, self.RDF.type, self.PRIVVULN.TimeSeries))
         self.graph.add((cO2ToOccupantCount, self.PRIVVULN['feeds'], occupantCount))
+
+class UltrasonicSpeakerUltrasonicMicToPresence(ITransformation):
+    __DOMAINNAMESPACE__ = NSUtil.get_namespase_domain_smart_building()
+
+    def __init__(self):
+        #doi: 10.1145/2993422.2993580
+        self.MODELS =  Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
+        super().__init__(self.__DOMAINNAMESPACE__)
+
+    def _build_model(self):
+        inputNode = self.MODELS['inputRequirement1']
+        self.graph.add((inputNode, self.RDF.type, self.PRIVVULNV2.Constraint))
+        self.graph.add((inputNode, self.PRIVVULNV2.TemporalResolution, Literal("120", datatype=self.XSD.double)))
+        self.graph.add((inputNode, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Room))
+        self.graph.add((inputNode, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.UltrasonicSpeaker))
+
+        timeResolutionLinear1 = self.MODELS['timeResolutionLinear1']
+        self.graph.add((timeResolutionLinear1, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
+        self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((timeResolutionLinear1, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((inputNode, self.PRIVVULN.feeds, timeResolutionLinear1))
+
+        inputNode2 = self.MODELS['inputRequirement2']
+        self.graph.add((inputNode2, self.RDF.type, self.PRIVVULNV2.Constraint))
+        self.graph.add((inputNode2, self.PRIVVULNV2.TemporalResolution, Literal("120", datatype=self.XSD.double)))
+        self.graph.add((inputNode2, self.PRIVVULNV2.spatialRequirement, self.__DOMAINNAMESPACE__.Room))
+        self.graph.add((inputNode2, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.UltrasonicMicrophone))
+
+        timeResolutionLinear2 = self.MODELS['timeResolutionLinear2']
+        self.graph.add((timeResolutionLinear2, self.RDF.type, self.PRIVVULNV2.TimeResolutionLinear))
+        self.graph.add((timeResolutionLinear2, self.PRIVVULNV2.TimeInput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((timeResolutionLinear2, self.PRIVVULNV2.TimeOutput, Literal("1",datatype=self.XSD.double)))
+        self.graph.add((inputNode2, self.PRIVVULN.feeds, timeResolutionLinear2))
+
+        ultrasonicSpeakerUltrasonicMicToPresence = self.MODELS['UltrasonicSpeakerUltrasonicMicToPresence']
+        self.graph.add((ultrasonicSpeakerUltrasonicMicToPresence, self.RDF.type, self.PRIVVULN.Transformation))
+        self.graph.add((inputNode, self.PRIVVULN['feeds'], ultrasonicSpeakerUltrasonicMicToPresence))
+        self.graph.add((inputNode2, self.PRIVVULN['feeds'], ultrasonicSpeakerUltrasonicMicToPresence))
+
+        occupantCount = self.MODELS['OccupantCount']
+        self.graph.add((occupantCount, self.RDF.type, self.PRIVVULN.TimeSeries))
+        self.graph.add((occupantCount, self.RDF.type, self.__DOMAINNAMESPACE__.OccupantCount))
+        self.graph.add((ultrasonicSpeakerUltrasonicMicToPresence, self.PRIVVULN.feeds, occupantCount))
+        
 
 
 # class NoiseToOccupantCount(ITransformation):

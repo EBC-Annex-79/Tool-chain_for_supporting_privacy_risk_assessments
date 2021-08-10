@@ -35,25 +35,31 @@ g1.bind('sbuilding',SBUILDING)
 M = Namespace('https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#')
 g1.bind('m', M)
 
+room = M['room']
+g1.add((room, RDF.type, SBUILDING.Office_Room))
 
-door = M['Door']
-g1.add((door, RDF.type, SBUILDING.Door))
+temperature = M['Temperature']
+g1.add((temperature, RDF.type, SBUILDING.Temperature))
+g1.add((temperature, RDF.type, PRIVVULN.TimeSeries))
+g1.add((temperature, PRIVVULNV2.TemporalResolution, Literal("300", datatype=XSD.double)))
+g1.add((room, PRIVVULNV2.has, temperature))
 
-ultrasonicDistanceStream = M['ultrasonicDistanceStream']
-g1.add((ultrasonicDistanceStream, RDF.type, SBUILDING.UltrasonicDistance))
-g1.add((ultrasonicDistanceStream, RDF.type, PRIVVULN.TimeSeries))
-g1.add((ultrasonicDistanceStream, PRIVVULNV2.TemporalResolution, Literal("0", datatype=XSD.double)))
-g1.add((door, PRIVVULNV2.has, ultrasonicDistanceStream))
+occupantCount = M['OccupantCount']
+g1.add((occupantCount, RDF.type, SBUILDING.OccupantCount))
+g1.add((occupantCount, RDF.type, PRIVVULN.TimeSeries))
+g1.add((occupantCount, PRIVVULNV2.TemporalResolution, Literal("300", datatype=XSD.double)))
+g1.add((room, PRIVVULNV2.has, occupantCount))
 
-room = M['Room']
-g1.add((room, RDF.type, SBUILDING.Room))
-g1.add((room, PRIVVULN.star, door))
+time = M['Time']
+g1.add((time, RDF.type, SBUILDING.Timestamp))
+g1.add((time, RDF.type, PRIVVULN.Metadata))
+g1.add((room, PRIVVULNV2.has, time))
 
-driver = Driver()
+driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/"
-outputName = "Khalil et al 2019"
+folder = "output/paper/TORS/"
+outputName = "10.1145-2993422.2993427"
 
 g1 = driver.run(g1, folder + outputName)
 

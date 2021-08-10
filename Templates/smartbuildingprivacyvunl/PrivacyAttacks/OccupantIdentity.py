@@ -26,3 +26,4 @@ class OccupantIdentity (IPrivacyAttack):
         self.graph.add((occupantIdentity, self.PRIVVULNV2.description, Literal("This is bad!", datatype=self.XSD.string)))
         self.graph.add((occupantActivitiesOccupantIdentity, self.PRIVVULN.creates, occupantIdentity))
         self.graph.add((occupantIdentity, self.PRIVVULNV2.privacyRiskScore, Literal("9", datatype=self.XSD.int)))
+        # self.graph.add((occupantIdentity, self.PRIVVULNV2.privacyStrategy, Literal("Consider using this pattern 2", datatype=self.XSD.string)))
