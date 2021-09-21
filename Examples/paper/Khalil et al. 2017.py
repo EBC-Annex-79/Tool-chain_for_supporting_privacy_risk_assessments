@@ -52,7 +52,7 @@ g1.add((room, PRIVVULN.star, door))
 driver = Driver()
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/"
+folder = "Output/Papers/"
 outputName = "Khalil et al 2019"
 
 g1 = driver.run(g1, folder + outputName)

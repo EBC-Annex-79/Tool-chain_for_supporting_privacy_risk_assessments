@@ -134,7 +134,7 @@ g1.add((outdoorTemperature, PRIVVULNV2.TemporalResolution, Literal("300", dataty
 g1.add((building, PRIVVULNV2.has, outdoorTemperature))
 
 driver = Driver(domain_NS=SBUILDING,debug_mode=True)
-folder = "output/Datasets/"
+folder = "Output/Datasets/"
 outputName = "Gao et al. 2020"
 
 g1 = driver.run(g1, folder + outputName)

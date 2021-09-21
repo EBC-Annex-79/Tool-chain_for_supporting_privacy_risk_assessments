@@ -134,7 +134,7 @@ g1.add((building, PRIVVULN.star, floor))
 driver = Driver(domain_NS=SBUILDING)
 print("graph has %s statements." % len(g1))
 
-folder = "output/Datasets/"
+folder = "Output/Datasets/"
 outputName = "Office_building_1"
 
 g1 = driver.run(g1, folder + outputName)

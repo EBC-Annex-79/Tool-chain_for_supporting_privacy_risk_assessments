@@ -53,7 +53,7 @@ g1.add((room, PRIVVULNV2.has, camera))
 driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/TORS/"
+folder = "Output/Papers/TORS/"
 outputName = "10.1145-3360322.3360848"
 
 g1 = driver.run(g1, folder + outputName)

@@ -116,7 +116,7 @@ g1.add((occ, PRIVVULNV2.has, genderOcc))
 driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/TORS/"
+folder = "Output/Paper/TORS/"
 outputName = "10.1145-3360322.3360858"
 
 g1 = driver.run(g1, folder + outputName)

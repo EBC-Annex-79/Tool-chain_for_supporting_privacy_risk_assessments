@@ -255,7 +255,7 @@ g1.add((conference, PRIVVULNV2.has, enthalpy))
 
 driver = Driver(debug_mode=True)
 
-folder = "output/Datasets/"
+folder = "Output/Datasets/"
 outputName = "Dong et al. 2010"
 
 g1 = driver.run(g1, folder + outputName)

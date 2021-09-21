@@ -102,7 +102,7 @@ g1.add((floor, PRIVVULNV2.has, scheduleActivities))
 driver = Driver()
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/"
+folder = "Output/Papers/"
 outputName = "Kjaergaard et al 2019"
 
 g1 = driver.run(g1, folder + outputName)

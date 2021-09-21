@@ -162,7 +162,7 @@ g1.add((building, PRIVVULNV2.has, contextLocation))
 driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/Datasets/"
+folder = "Output/Datasets/"
 outputName = "Arendt et al 2018"
 
 g1 = driver.run(g1, folder + outputName)

@@ -58,7 +58,7 @@ g1.add((room, PRIVVULNV2.has, time))
 driver = Driver(debug_mode=True)
 print("graph has %s statements." % len(g1))
 
-folder = "output/paper/TORS/"
+folder = "Output/Papers/TORS/"
 outputName = "10.1145-2993422.2993427"
 
 g1 = driver.run(g1, folder + outputName)

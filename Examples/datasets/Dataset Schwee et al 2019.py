@@ -182,7 +182,7 @@ g1.add((contextLocation, RDF.type, PRIVVULN.Metadata))
 g1.add((building, PRIVVULNV2.has, contextLocation))
 
 driver = Driver(debug_mode=True)
-folder = "output/Datasets/"
+folder = "Output/Datasets/"
 outputName = "Schwee et al. 2019"
 
 g1 = driver.run(g1, folder + outputName)
