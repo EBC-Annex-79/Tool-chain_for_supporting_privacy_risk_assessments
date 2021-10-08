@@ -1,0 +1,5 @@
+Flask==2.0.1
+rdflib==5.0.0
+graphviz==0.17 
+requests==2.26.0
+Flask-Cors==1.10.3 
