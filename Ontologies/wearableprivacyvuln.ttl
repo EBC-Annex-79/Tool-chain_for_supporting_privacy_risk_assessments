@@ -5,6 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix privacyvunl: <https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#> .
+@prefix privacyvunlv2: <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#> .
 
 <https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#> rdf:type owl:Ontology ;
 	owl:imports <https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#> .
@@ -12,9 +13,19 @@
 # contexts
 # e.g. smart devices
 
+:Wearable a owl:class ;
+    rdfs:subClassOf privacyvunlv2:Context .
 
+:SmartWatch  a owl:class ; 
+    rdfs:subClassOf :Wearable .
 
 # data
 
 :Accelerometer a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:PhysicalActivity a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:SleepPattern a owl:NamedIndividual ;
     a privacyvunl:TimeSeries .
