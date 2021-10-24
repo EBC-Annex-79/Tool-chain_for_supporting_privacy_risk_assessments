@@ -2,6 +2,7 @@ import os, sys
 current_path = os.path.abspath('.')
 sys.path.append(current_path)
 
+from flask_cors import CORS, cross_origin
 from flask import Flask, request, jsonify
 import json
 
@@ -10,12 +11,16 @@ from Framework.Run import execute_template
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/', methods=['GET'])
+@cross_origin()
 def home():
     return "<h1>Privacy risk anslyses</h1> <p>Use endpoint POST /api/v1 </p>"
 
 @app.route('/api/v1', methods=['GET'])
+@cross_origin()
 def get_dokumentation():
     json_obj = {
         "nodes" : 
@@ -45,6 +50,7 @@ def get_dokumentation():
     return "<h1>Privacy risk anslyses</h1> <p>Use endpoint POST /api/v1</p> <p> JSON object to pass:<p/><p>" + json.dumps(json_obj, indent=4, sort_keys=True) + "</p>"
 
 @app.route('/api/v1', methods=['POST'])
+@cross_origin()
 def run_analyses():
     json_obj = request.json
     if "nodes" in json_obj and "links" in json_obj and "namespace" in json_obj:
