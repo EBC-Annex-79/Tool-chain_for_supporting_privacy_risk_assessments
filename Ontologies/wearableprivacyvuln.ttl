@@ -13,19 +13,80 @@
 # contexts
 # e.g. smart devices
 
+
+
 :Wearable a owl:class ;
     rdfs:subClassOf privacyvunlv2:Context .
 
 :SmartWatch  a owl:class ; 
     rdfs:subClassOf :Wearable .
 
+:SmartGlasses  a owl:class ;
+    rdfs:subClassOf :Wearable .
+
+:SmartShoes  a owl:class ;
+    rdfs:subClassOf :Wearable .
+
+
+:Body a owl:class ;
+    owl:disjointWith :Environment ;
+    rdfs:subClassOf privacyvunlv2:Context .
+
+:Environment a owl:class ;
+    owl:disjointWith :Body ;
+    rdfs:subClassOf privacyvunlv2:Context .
+
+:Wrist a owl:class ;
+    rdfs:subClassOf privacyvunlv2:Context .
+
+:Leg a owl:class ;
+    rdfs:subClassOf privacyvunlv2:Context .
+
+:Head a owl:class ;
+    rdfs:subClassOf privacyvunlv2:Context .
+
 # data
 
 :Accelerometer a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:ElectrodermalActivity a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries ;
+    owl:equivalentClass :GalvanicSkinResponse .
+
+:GalvanicSkinResponse a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries ;
+    owl:equivalentClass :ElectrodermalActivity .
+
+:Photoplethysmography a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:Electrocardiography a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+#
+
+:Thermometer
+
+# Transformations
+
+:InterbeatInterval a owl:NamedIndividual ;
     a privacyvunl:TimeSeries .
 
 :PhysicalActivity a owl:NamedIndividual ;
     a privacyvunl:TimeSeries .
 
 :SleepPattern a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:BloodVolumePulse a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:BreathingRate a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:HeartRate a owl:NamedIndividual ;
+    a privacyvunl:TimeSeries .
+
+:HandGestures a owl:NamedIndividual ;
     a privacyvunl:TimeSeries .

@@ -1,5 +1,7 @@
+from rdflib import Namespace, RDF, Literal
+
 from Templates.ITemplate import ITransformation
-from rdflib import Graph, Namespace, URIRef, Literal
+
 
 # https://dl.acm.org/doi/pdf/10.1145/3309074.3309076
 
@@ -17,29 +19,30 @@ class PhysicalActivity(ITransformation):
         super().__init__(self.__DOMAINNAMESPACE__)
 
     def _build_model(self):
-        input1 = self.MODELS["inputRequirement1"]
-        self.graph.add((input1, self.RDF.type, self.PRIVVULNV2.Constraint))
-        self.graph.add(
-            (input1, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.Accelerometer)
-        )
+        input_node = self.MODELS["inputRequirement"]
+        triples = [
+            (input_node, self.RDF.type, self.PRIVVULNV2.Constraint),
+            (input_node, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.Accelerometer)
+        ]
+        time_resolution = self.MODELS['timeResolutionLinear']
+        triples += [
+            (time_resolution, RDF.type, self.PRIVVULNV2.TimeResolutionLinear),
+            (time_resolution, self.PRIVVULNV2.TimeInput, Literal(1.0, datatype=self.XSD.double)),
+            (time_resolution, self.PRIVVULNV2.TimeOutput, Literal(1.0, datatype=self.XSD.double)),
+            (input_node, self.PRIVVULN.feeds, time_resolution)
+        ]
 
-        accelerometerToPhysicalActivity = self.MODELS["accelerometerToPhysicalActivity"]
-        self.graph.add(
-            (
-                accelerometerToPhysicalActivity,
-                self.RDF.type,
-                self.PRIVVULN.Transformation,
-            )
-        )
-        self.graph.add(
-            (input1, self.PRIVVULN["feeds"], accelerometerToPhysicalActivity)
-        )
+        accelerometer_to_physical_activity = self.MODELS["accelerometerToPhysicalActivity"]
+        triples += [
+            (accelerometer_to_physical_activity, RDF.type, self.PRIVVULN.Transformation),
+            (input_node, self.PRIVVULN["feeds"], accelerometer_to_physical_activity)
+        ]
 
-        physicalActivity = self.MODELS["physicalActivity"]
-        self.graph.add((physicalActivity, self.RDF.type, self.PRIVVULN.TimeSeries))
-        self.graph.add(
-            (physicalActivity, self.RDF.type, self.__DOMAINNAMESPACE__.PhysicalActivity)
-        )
-        self.graph.add(
-            (accelerometerToPhysicalActivity, self.PRIVVULN.feeds, physicalActivity)
-        )
+        physical_activity = self.MODELS["physicalActivity"]
+        triples += [
+            (physical_activity, RDF.type, self.PRIVVULN.TimeSeries),
+            (physical_activity, RDF.type, self.__DOMAINNAMESPACE__.PhysicalActivity),
+            (accelerometer_to_physical_activity, self.PRIVVULN.feeds, physical_activity)
+        ]
+
+        [self.graph.add(triple) for triple in triples]

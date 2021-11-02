@@ -1,29 +1,31 @@
-from Templates.ITemplate import ITransformation, IPrivacyAttack
-import Templates
+import importlib
+import inspect
+import time
 from importlib import import_module
-import inspect, sys
-from rdflib import Graph, Namespace, URIRef, Literal, exceptions
-import rdflib
-import rdflib.plugin
-from rdflib.compare import to_isomorphic, graph_diff, to_canonical_graph
-import json
-from Framework.Data import Data
-from Framework.Templates.transforamtion import Util as TransformationUtil
-from Framework.Templates.privacyAttack import Util as PrivacyAttackUtil
+
+from rdflib import Namespace
+
 from Framework.Risk.Analysis import Analysis
 from Framework.Risk.visualize import Visualize_full
-import time
-import importlib
+from Framework.Templates.privacyAttack import Util as PrivacyAttackUtil
+from Framework.Templates.transforamtion import Util as TransformationUtil
 from Framework.Templates.validator import Privacy_attack_validator, Transforamtion_validator, Input_validator
+from Templates.ITemplate import ITransformation, IPrivacyAttack
+
 
 class Driver:
-    def __init__(self, domain_path="./Ontologies/smartbuildingprivacyvunl.ttl", base_ontology_path=None, extention_ontology_path=None, domain_NS = Namespace('https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#'), debug_mode=False):
+    def __init__(self, domain_path="./Ontologies/smartbuildingprivacyvunl.ttl", base_ontology_path=None,
+                 extention_ontology_path=None,
+                 domain_NS=Namespace('https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#'),
+                 debug_mode=False):
         self.domain_path = domain_path
         self.base_ontology_path = base_ontology_path if base_ontology_path is not None else "./Ontologies/privacyvunl.ttl"
         self.extention_ontology_path = extention_ontology_path if extention_ontology_path is not None else "./Ontologies/privacyvunlv2.ttl"
-        self.transformationUtil = TransformationUtil(self.domain_path,self.base_ontology_path,self.extention_ontology_path)
-        self.privacyAttackUtil = PrivacyAttackUtil(self.domain_path,self.base_ontology_path,self.extention_ontology_path)
-        self.analyses = Analysis(self.domain_path,self.base_ontology_path,self.extention_ontology_path)
+        self.transformationUtil = TransformationUtil(self.domain_path, self.base_ontology_path,
+                                                     self.extention_ontology_path)
+        self.privacyAttackUtil = PrivacyAttackUtil(self.domain_path, self.base_ontology_path,
+                                                   self.extention_ontology_path)
+        self.analyses = Analysis(self.domain_path, self.base_ontology_path, self.extention_ontology_path)
         self.domain_NS = domain_NS
         self.debug_mode = debug_mode
         self.gen_transformations_seconds = []
@@ -40,7 +42,7 @@ class Driver:
             print("Using analyses")
 
         risk_results = self.analyses.find_privacy_scores(inputModel, nameing_of_output)
-        self.json_report_seconds = time.time()- seconds
+        self.json_report_seconds = time.time() - seconds
 
         if self.debug_mode:
             print("Analyses time in seconds:", time.time()- seconds)

@@ -1,9 +1,10 @@
-import os, sys
-import pdb
+import os
+import sys
+
 current_path = os.path.abspath('.')
 sys.path.append(current_path)
 
-from rdflib import Graph, Namespace, URIRef, Literal, namespace
+from rdflib import Graph, Namespace, Literal
 import rdflib
 from Framework.driver import Driver
 import Framework.namespace_util as NSUtil
@@ -48,7 +49,6 @@ def run_analyses(json):
         g1.add((subject, RDF.type, rdflib.term.URIRef(node["type"])))
         if "superType" in node and node["superType"] != "" and node["superType"] and node["superType"] != str(PRIVVULNV2.Context):
             g1.add((subject, RDF.type, rdflib.term.URIRef(node["superType"])))
-            
 
         if "attributes" in node:
             for attribute in node["attributes"]:
@@ -59,21 +59,22 @@ def run_analyses(json):
                     if attribute["value"] != '' and attribute["value"] != None:
                         g1.add((subject, rdflib.term.URIRef(str(PRIVVULNV2) + attribute["name"]), Literal(attribute["value"], datatype=rdflib.term.URIRef(str(XSD)+ attribute["dataType"]))))
 
-    for link  in links:
+    for link in links:
         if "subject" not in link and "predicate" not in link and "object" not in link:
             continue
-        g1.add((rdflib.term.URIRef(link["subject"]), rdflib.term.URIRef(link["predicate"]), rdflib.term.URIRef(link["object"])))
+        g1.add((rdflib.term.URIRef(link["subject"]), rdflib.term.URIRef(link["predicate"]),
+                rdflib.term.URIRef(link["object"])))
 
     driver = Driver(debug_mode=True)
     print("graph has %s statements." % len(g1))
 
-    g1, risk_results,graph  = driver.run_with_output(g1)
+    g1, risk_results, graph = driver.run_with_output(g1)
 
     print("graph has %s statements." % len(g1))
 
     returnJson = {
-        'graph' :   str(graph.source),
-        'privacy_report' :   risk_results,
+        'graph': str(graph.source),
+        'privacy_report': risk_results,
     }
 
     return returnJson
