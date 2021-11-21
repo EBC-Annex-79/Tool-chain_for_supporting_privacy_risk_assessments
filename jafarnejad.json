@@ -1,5 +1,8 @@
 {
-  "comment": "https://www.kaggle.com/sasanj/human-activity-smart-devices",
+  "comment": [
+    "https://www.kaggle.com/sasanj/human-activity-smart-devices",
+    "https://www.nature.com/articles/s41597-021-00831-z#code-availability"
+  ],
   "nodes": [
     {
       "name": "Accelerometer",
