@@ -1,0 +1,44 @@
+{
+  "comment": "https://www.kaggle.com/sasanj/human-activity-smart-devices",
+  "nodes": [
+    {
+      "name": "Accelerometer",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Accelerometer",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BloodVolumePulse",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.015625
+        }
+      ]
+    },
+    {
+      "name": "HeartRate",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BloodVolumePulse",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.015625
+        }
+      ]
+    },
+    {
+      "name": "AirPressure",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BloodVolumePulse",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.015625
+        }
+      ]
+    }
+  ]
+}

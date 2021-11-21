@@ -1,0 +1,83 @@
+{
+  "namespace": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#",
+  "nodes:": [
+    {
+      "name": "BloodVolumePulse",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BloodVolumePulse",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.015625
+        }
+      ]
+    },
+    {
+      "name": "Accelerometer",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.03125
+        }
+      ]
+    },
+    {
+      "name": "Temperature",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "name": "ElectrodermalActivity",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "name": "HeartRate",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "InterbeatInterval",
+      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#InterbeatInterval",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "attributes": [
+        {
+          "dataType": "double",
+          "name": "TemporalResolution",
+          "value": 0.390644
+        }
+      ]
+    }
+  ]
+}
