@@ -9,7 +9,7 @@ from Templates.ITemplate import ITransformation
 class PhysicalActivity(ITransformation):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__ = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):
@@ -32,7 +32,7 @@ class PhysicalActivity(ITransformation):
             (input_node, self.PRIVVULN.feeds, time_resolution)
         ]
 
-        accelerometer_to_physical_activity = self.MODELS["accelerometerToPhysicalActivity"]
+        accelerometer_to_physical_activity = self.MODELS["AccToPhysicalActivity"]
         triples += [
             (accelerometer_to_physical_activity, RDF.type, self.PRIVVULN.Transformation),
             (input_node, self.PRIVVULN["feeds"], accelerometer_to_physical_activity)

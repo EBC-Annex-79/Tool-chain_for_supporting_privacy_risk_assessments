@@ -8,7 +8,7 @@ from ITemplate import IPrivacyAttack
 class Stress(IPrivacyAttack):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__: Namespace = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):

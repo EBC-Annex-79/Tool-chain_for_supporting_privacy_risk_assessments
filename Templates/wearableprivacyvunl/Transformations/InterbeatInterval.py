@@ -7,7 +7,7 @@ from Templates.ITemplate import ITransformation
 class InterbeatInterval(ITransformation):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__ = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):
@@ -35,14 +35,14 @@ class InterbeatInterval(ITransformation):
         ecg_to_ibi = self.MODELS["EcgToIbi"]
         triples += [
             (ecg_to_ibi, RDF.type, self.PRIVVULN.Transformation),
-            (ecg, self.PRIVVULN["feeds"], ecg_to_ibi)
+            (ecg, self.PRIVVULN.feeds, ecg_to_ibi)
         ]
 
-        physical_activity = self.MODELS["interbeatInterval"]
+        ibi = self.MODELS["interbeatInterval"]
         triples += [
-            (physical_activity, RDF.type, self.PRIVVULN.TimeSeries),
-            (physical_activity, RDF.type, self.__DOMAINNAMESPACE__.InterbeatInterval),
-            (ecg, self.PRIVVULN.feeds, physical_activity)
+            (ibi, RDF.type, self.PRIVVULN.TimeSeries),
+            (ibi, RDF.type, self.__DOMAINNAMESPACE__.InterbeatInterval),
+            (ecg_to_ibi, self.PRIVVULN.feeds, ibi)
         ]
 
         [self.graph.add(triple) for triple in triples]

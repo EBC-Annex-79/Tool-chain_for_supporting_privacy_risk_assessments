@@ -6,7 +6,7 @@ from Templates.ITemplate import ITransformation
 # https://arxiv.org/abs/2106.11900
 class BloodVolumePulse(ITransformation):
     __DOMAINNAMESPACE__ = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):

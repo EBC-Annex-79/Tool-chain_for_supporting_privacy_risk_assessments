@@ -14,14 +14,14 @@
   "nodes": [
     {
       "name": "SmartWatch",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StepCounter",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": []
     },
     {
       "name": "StepCounter",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StepCounter",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -34,7 +34,7 @@
     },
     {
       "name": "RotationVector",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RotationVector",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -47,7 +47,7 @@
     },
     {
       "name": "LinearAcceleration",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LinearAcceleration",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -60,7 +60,7 @@
     },
     {
       "name": "Gravity",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gravity",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -73,7 +73,7 @@
     },
     {
       "name": "Gyroscope",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gyroscope",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -86,7 +86,7 @@
     },
     {
       "name": "Battery",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Battery",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -99,7 +99,7 @@
     },
     {
       "name": "StepDetector",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StepDetector",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -112,7 +112,7 @@
     },
     {
       "name": "Magnetometer",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Magnetometer",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -125,7 +125,7 @@
     },
     {
       "name": "Orientation",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Orientation",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -138,7 +138,7 @@
     },
     {
       "name": "Accelerometer",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -151,7 +151,7 @@
     },
     {
       "name": "HeartRate",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#HeartRate",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#HeartRate",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -164,7 +164,7 @@
     },
     {
       "name": "AirPressure",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Temperature",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#AirPressure",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [

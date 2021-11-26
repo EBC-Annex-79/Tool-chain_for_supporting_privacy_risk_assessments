@@ -1,14 +1,13 @@
-from rdflib import Namespace, RDF, XSD
-from rdflib.term import Literal
+from rdflib import Namespace, RDF, Literal, XSD
 
 from ITemplate import IPrivacyAttack
 
 
-# https://dl.acm.org/doi/pdf/10.1145/3309074.3309076
-class HealthCondition(IPrivacyAttack):
+# https://arxiv.org/abs/2106.11900
+class PersonReIdentificationHR(IPrivacyAttack):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__: Namespace = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):
@@ -17,27 +16,27 @@ class HealthCondition(IPrivacyAttack):
         )
         super().__init__(self.__DOMAINNAMESPACE__)
 
-    def _build_model(self) -> None:
-        physical_activity = self.MODELS["inputRequirement1"]
+    def _build_model(self):
+        heart_rate = self.MODELS["inputRequirementHR"]
         triples = [
-            (physical_activity, self.RDF.type, self.PRIVVULNV2.Constraint),
-            (physical_activity, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.PhysicalActivity)
+            (heart_rate, self.RDF.type, self.PRIVVULNV2.Constraint),
+            (heart_rate, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.HeartRate)
         ]
 
-        sleep_pattern = self.MODELS["inputRequirement2"]
+        hand_gestures = self.MODELS["inputRequirementHandGestures"]
         triples += [
-            (sleep_pattern, RDF.type, self.PRIVVULNV2.Constraint),
-            (sleep_pattern, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.SleepPattern)
+            (hand_gestures, RDF.type, self.PRIVVULNV2.Constraint),
+            (hand_gestures, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.HandGestures)
         ]
 
         transformation = self.MODELS["physicalActivitySleepPatternToHealthCondition"]
         triples += [
             (transformation, RDF.type, self.PRIVVULN.PrivacyAttack),
-            (physical_activity, self.PRIVVULN.feeds, transformation),
-            (sleep_pattern, self.PRIVVULN.feeds, transformation)
+            (heart_rate, self.PRIVVULN.feeds, transformation),
+            (hand_gestures, self.PRIVVULN.feeds, transformation)
         ]
 
-        health_condition = self.MODELS["HealthCondition"]
+        health_condition = self.MODELS["PersonReIdentification"]
         triples += [
             (health_condition, RDF.type, self.PRIVVULN.PrivacyRisk),
             (health_condition, self.PRIVVULNV2.description, Literal("This is bad!", datatype=XSD.string)),

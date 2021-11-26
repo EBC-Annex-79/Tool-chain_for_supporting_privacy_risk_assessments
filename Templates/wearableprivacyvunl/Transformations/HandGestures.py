@@ -7,7 +7,7 @@ from ITemplate import ITransformation
 # https://arxiv.org/pdf/2106.11900.pdf
 class HandGestures(ITransformation):
     __DOMAINNAMESPACE__ = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):

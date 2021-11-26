@@ -1,19 +1,29 @@
-from rdflib import Graph, Namespace, URIRef, Literal
+from rdflib import Namespace
+
 
 def get_namespase_domain_smart_home():
     return Namespace('https://ontology.hviidnet.com/2020/01/03/smarthomesprivacyvunl.ttl#')
 
+
 def get_namespase_domain_smart_building():
     return Namespace('https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#')
+
 
 def get_namespase_domain_health():
     return Namespace('https://ontology.hviidnet.com/2020/01/03/healthprivacyvunl.ttl#')
 
+
+def get_namespase_domain_wearables():
+    return Namespace('https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#')
+
+
 def get_namespase_rdf():
     return Namespace(get_url_rdf())
 
+
 def get_namespase_rdfs():
     return Namespace(get_url_rdfs())
+
 
 def get_namespase_owl():
     return Namespace(get_url_owl())

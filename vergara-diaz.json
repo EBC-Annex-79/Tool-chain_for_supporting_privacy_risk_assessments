@@ -7,41 +7,51 @@
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BackACC"
     },
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_15",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerArm",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
-      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC14"
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RightUpperLimbACC"
     },
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_15",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerArm",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
-      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TVOC14"
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LeftUpperLimbACC"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerLeg",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RightLowerLimbACC"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerLeg",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LeftLowerLimbACC"
     }
   ],
   "nodes": [
     {
       "name": "Back",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.tt#Back",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#Back",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Back",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []
     },
     {
       "name": "Forearm",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.tt#LowerArm",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#LowerArm",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Forearm",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []
     },
     {
       "name": "Shank",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.tt#LowerLeg",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#LowerLeg",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Shank",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []
     },
     {
       "name": "BackACC",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BackACC",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -54,7 +64,7 @@
     },
     {
       "name": "RightUpperLimbACC",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RightUpperLimbACC",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -67,7 +77,7 @@
     },
     {
       "name": "LeftUpperLimbACC",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LeftUpperLimbACC",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -80,7 +90,7 @@
     },
     {
       "name": "LeftLowerLimbACC",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LeftLowerLimbACC",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -93,7 +103,7 @@
     },
     {
       "name": "RightLowerLimbACC",
-      "type": "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RightLowerLimbACC",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [

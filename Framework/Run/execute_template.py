@@ -69,8 +69,8 @@ def run_analyses(json):
         g1.add((rdflib.term.URIRef(link["subject"]), rdflib.term.URIRef(link["predicate"]),
                 rdflib.term.URIRef(link["object"])))
     driver = Driver(debug_mode=True,
-                    domain_path="./Ontologies/wearableprivacyvuln.ttl",
-                    domain_NS=Namespace('https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#'))
+                    domain_path="./Ontologies/wearableprivacyvunl.ttl",
+                    domain_NS=Namespace('https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#'))
     # driver = Driver(debug_mode=True)
     print("graph has %s statements." % len(g1))
 

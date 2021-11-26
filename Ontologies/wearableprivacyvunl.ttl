@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <owl:Ontology rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#">
+    <owl:imports rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#"/>
+  </owl:Ontology>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#BodyPart">
+    <owl:disjointWith>
+      <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Environment">
+        <owl:disjointWith rdf:resource="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#BodyPart"/>
+        <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+      </owl:class>
+    </owl:disjointWith>
+
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Arm">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>get_namespase_domain_health
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#UpperArm">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Wrist">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Head">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#lLeg">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#UpperLeg">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#LowerLeg">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Foot">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Back">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttlChest">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#ElectrodermalActivity">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+    <owl:equivalentClass>
+      <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#GalvanicSkinResponse">
+        <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+        <owl:equivalentClass rdf:resource="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#ElectrodermalActivity"/>
+      </owl:NamedIndividual>
+    </owl:equivalentClass>
+
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Photoplethysmography">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Electrocardiography">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Thermometer">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#InterbeatInterval">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#PhysicalActivity">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#SleepPattern">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#BloodVolumePulse">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#BreathingRate">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#HeartRate">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+  <owl:NamedIndividual rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#HandGestures">
+    <rdf:type rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries"/>
+  </owl:NamedIndividual>
+
+</rdf:RDF>

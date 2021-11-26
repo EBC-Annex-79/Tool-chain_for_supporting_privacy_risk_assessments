@@ -1,14 +1,13 @@
-from rdflib import Namespace, RDF, XSD
-from rdflib.term import Literal
+# https://ieeexplore-ieee-org.proxy1-bib.sdu.dk/document/7917140
+from rdflib import Namespace, Literal, XSD, RDF
 
 from ITemplate import IPrivacyAttack
 
 
-# https://ieeexplore-ieee-org.proxy1-bib.sdu.dk/document/7514649
-class Gender(IPrivacyAttack):
+class KeyboardInput(IPrivacyAttack):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__: Namespace = Namespace(
-        "https://emikr15.student,sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
+        "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"
     )
 
     def __init__(self):
@@ -21,23 +20,23 @@ class Gender(IPrivacyAttack):
         accelerometer = self.MODELS["inputRequirementACC"]
         triples = [
             (accelerometer, self.RDF.type, self.PRIVVULNV2.Constraint),
-            (accelerometer, self.PRIVVULNV2.TemporalResolution, Literal("0.01", datatype=self.XSD.double)),
+            (accelerometer, self.PRIVVULNV2.TemporalResolution, Literal("0.02", datatype=self.XSD.double)),
             (accelerometer, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.PhysicalActivity)
         ]
 
-        transformation = self.MODELS["accelerometerToGender"]
+        transformation = self.MODELS["accToKeyboardInput"]
         triples += [
             (transformation, RDF.type, self.PRIVVULN.PrivacyAttack),
             (accelerometer, self.PRIVVULN.feeds, transformation),
         ]
 
-        gender = self.MODELS["Gender"]
+        keyboard_input = self.MODELS["KeyboardInput"]
         triples += [
-            (gender, RDF.type, self.PRIVVULN.PrivacyRisk),
-            (gender, self.PRIVVULNV2.description, Literal("This is bad!", datatype=XSD.string)),
-            (transformation, self.PRIVVULN.creates, gender),
+            (keyboard_input, RDF.type, self.PRIVVULN.PrivacyRisk),
+            (keyboard_input, self.PRIVVULNV2.description, Literal("This is bad!", datatype=XSD.string)),
+            (transformation, self.PRIVVULN.creates, keyboard_input),
             # TODO fix score
-            (gender, self.PRIVVULNV2.privacyRiskScore, Literal(5, datatype=XSD.int))
+            (keyboard_input, self.PRIVVULNV2.privacyRiskScore, Literal(5, datatype=XSD.int))
         ]
 
         [self.graph.add(triple) for triple in triples]
