@@ -1,10 +1,12 @@
 from rdflib import Namespace, RDF, XSD
 from rdflib.term import Literal
 
-from ITemplate import IPrivacyAttack
 
 
 # https://dl.acm.org/doi/pdf/10.1145/3309074.3309076
+from Templates.ITemplate import IPrivacyAttack
+
+
 class HealthCondition(IPrivacyAttack):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__: Namespace = Namespace(

@@ -1,10 +1,12 @@
 from rdflib import Literal
 from rdflib.namespace import RDF, Namespace
 
-from ITemplate import ITransformation
 
 
 # https://arxiv.org/pdf/2106.11900.pdf
+from Templates.ITemplate import ITransformation
+
+
 class HandGestures(ITransformation):
     __DOMAINNAMESPACE__ = Namespace(
         "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"

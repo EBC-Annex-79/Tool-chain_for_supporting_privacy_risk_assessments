@@ -30,21 +30,21 @@
   "nodes": [
     {
       "name": "Back",
-      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#Back",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Back",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Back",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []
     },
     {
       "name": "Forearm",
-      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#LowerArm",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#LowerArm",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Forearm",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []
     },
     {
       "name": "Shank",
-      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.tt#LowerLeg",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#LowerLeg",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Shank",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []

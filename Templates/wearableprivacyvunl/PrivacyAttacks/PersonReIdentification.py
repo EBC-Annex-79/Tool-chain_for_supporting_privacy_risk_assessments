@@ -1,9 +1,11 @@
 from rdflib import Namespace, RDF, Literal, XSD
 
-from ITemplate import IPrivacyAttack
 
 
 # https://arxiv.org/abs/2106.11900
+from Templates.ITemplate import IPrivacyAttack
+
+
 class PersonReIdentificationHR(IPrivacyAttack):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__: Namespace = Namespace(

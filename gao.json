@@ -1,9 +1,55 @@
 {
   "namespace": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#",
+  "links": [
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BloodVolumePulse"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Environment",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#InterbeatInterval"
+    }
+  ],
   "nodes:": [
     {
+      "name": "SmartWatch",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#LowerArm",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
+      "attributes": []
+    },
+    {
+      "name": "Environment",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Environment",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Environment",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
+      "attributes": []
+    },
+    {
       "name": "BloodVolumePulse",
-      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#BloodVolumePulse",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BloodVolumePulse",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -16,7 +62,7 @@
     },
     {
       "name": "Accelerometer",
-      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -29,7 +75,7 @@
     },
     {
       "name": "Temperature",
-      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Temperature",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -42,7 +88,7 @@
     },
     {
       "name": "ElectrodermalActivity",
-      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#ElectrodermalActivity",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ElectrodermalActivity",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -55,7 +101,7 @@
     },
     {
       "name": "HeartRate",
-      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#HeartRate",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [
@@ -68,7 +114,7 @@
     },
     {
       "name": "InterbeatInterval",
-      "type": "https://ontology.hviidnet.com/2020/01/03/smartbuildingprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#InterbeatInterval",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#InterbeatInterval",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [

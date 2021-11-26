@@ -1,10 +1,11 @@
 from rdflib import Literal
 from rdflib.namespace import RDF, Namespace
 
-from ITemplate import ITransformation
-
 
 # https://dl.acm.org/doi/pdf/10.1145/3309074.3309076
+from Templates.ITemplate import ITransformation
+
+
 class SleepPattern(ITransformation):
     __DOMAINNAMESPACE__ = Namespace(
         "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#"

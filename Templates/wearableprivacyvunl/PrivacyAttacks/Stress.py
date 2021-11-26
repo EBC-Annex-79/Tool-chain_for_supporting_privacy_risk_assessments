@@ -2,7 +2,7 @@
 
 from rdflib import Namespace, RDF, Literal, XSD
 
-from ITemplate import IPrivacyAttack
+from Templates.ITemplate import IPrivacyAttack
 
 
 class Stress(IPrivacyAttack):

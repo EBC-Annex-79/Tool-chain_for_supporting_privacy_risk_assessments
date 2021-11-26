@@ -1,7 +1,7 @@
 # https://ieeexplore-ieee-org.proxy1-bib.sdu.dk/document/7917140
 from rdflib import Namespace, Literal, XSD, RDF
 
-from ITemplate import IPrivacyAttack
+from Templates.ITemplate import IPrivacyAttack
 
 
 class KeyboardInput(IPrivacyAttack):

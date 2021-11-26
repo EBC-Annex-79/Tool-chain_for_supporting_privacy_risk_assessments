@@ -1,10 +1,12 @@
 from rdflib import Namespace, RDF, XSD
 from rdflib.term import Literal
 
-from ITemplate import IPrivacyAttack
 
 
 # https://ieeexplore-ieee-org.proxy1-bib.sdu.dk/document/7514649
+from Templates.ITemplate import IPrivacyAttack
+
+
 class Gender(IPrivacyAttack):
     # noinspection SpellCheckingInspection
     __DOMAINNAMESPACE__: Namespace = Namespace(
