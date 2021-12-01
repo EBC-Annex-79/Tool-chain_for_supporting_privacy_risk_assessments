@@ -1,22 +1,93 @@
 {
+  "comment": "https://www.kaggle.com/sasanj/human-activity-smart-devices",
   "namespace": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl",
   "links": [
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Bay_6",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TestSubject",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
-      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#ParticulateMatter25_5"
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StepCounter"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RotationVector"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LinearAcceleration"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gravity"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Gyroscope"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Battery"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StepDetector"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Magnetometer"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Orientation"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Accelerometer"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#HeartRate"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Environment",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#AirPressure"
     }
-  ],
-  "comment": [
-    "https://www.kaggle.com/sasanj/human-activity-smart-devices",
-    "https://www.nature.com/articles/s41597-021-00831-z#code-availability"
   ],
   "nodes": [
     {
+      "name": "Environment",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Environment",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Environment",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
+      "attributes": []
+    },
+    {
+      "name": "TestSubject",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Individual",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#TestSubject",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
+      "attributes": []
+    },
+    {
       "name": "SmartWatch",
-      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Accelerometer",
-      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#StepCounter",
-      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Wrist",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#SmartWatch",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []
     },
     {

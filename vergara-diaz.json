@@ -1,4 +1,5 @@
 {
+  "comment": "https://www.nature.com/articles/s41597-021-00831-z#code-availability",
   "namespace": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#",
   "links": [
     {
@@ -7,27 +8,49 @@
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#BackACC"
     },
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerArm",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Forearm",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RightUpperLimbACC"
     },
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerArm",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Forearm",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LeftUpperLimbACC"
     },
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerLeg",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Shank",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#RightLowerLimbACC"
     },
     {
-      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LowerLeg",
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Shank",
       "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#has",
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#LeftLowerLimbACC"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Individual",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Back"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Individual",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Forearm"
+    },
+    {
+      "subject": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Individual",
+      "predicate": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#star",
+      "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Shank"
     }
   ],
   "nodes": [
+    {
+      "name": "Individual",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Individual",
+      "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Individual",
+      "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
+      "attributes": []
+    },
     {
       "name": "Back",
       "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Back",
@@ -37,7 +60,7 @@
     },
     {
       "name": "Forearm",
-      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#LowerArm",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Wrist",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Forearm",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#Context",
       "attributes": []

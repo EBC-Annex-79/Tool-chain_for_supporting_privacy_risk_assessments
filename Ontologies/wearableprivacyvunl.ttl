@@ -18,9 +18,13 @@
     <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
   </owl:class>
 
-  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Arm">
+  <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Individual">
     <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
-  </owl:class>get_namespase_domain_health
+  </owl:class>
+
+   <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Arm">
+    <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>
+  </owl:class>
 
   <owl:class rdf:about="https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#UpperArm">
     <rdfs:subClassOf rdf:resource="https://ontology.hviidnet.com/2020/01/03/privacyvunlV2.ttl#Context"/>

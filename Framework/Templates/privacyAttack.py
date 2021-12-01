@@ -131,6 +131,8 @@ class Util(BaseUtil):
                         else:
                             spatial_resolution_match = True
                         if spatial_resolution_match:
+                            if context_data_object.temporal_resolutions is None:
+                                print(context_data_object)
                             if template_data_type.temporal_resolutions is None or context_data_object.temporal_resolutions <= template_data_type.temporal_resolutions:
                                 if template_data_type.domain_data_type not in temp_data_objects: temp_data_objects[template_data_type.domain_data_type] = []
                                 temp_data_objects[template_data_type.domain_data_type].append(Data(template_data_type.domain_data_type, context_data_object.temporal_resolutions,template_name = template_name, subject_name = context_data_object.subject_name, template_count = context_data_object.template_count, base_subject_name=context_data_object.base_subject_name,description=template_data_type.description, spatial_resolutions=template_data_type.context))

@@ -7,7 +7,7 @@ import json
 import copy
 from rdflib import Graph, Namespace, URIRef, Literal, exceptions
 import rdflib
-import rdflib.plugins.sparql
+from rdflib.plugins.sparql import prepareQuery
 from Framework.Data.PrivacyRisk import PrivacyRisk
 import Framework.namespace_util as NSUtil
 from Framework.Input.InputData import Util as InputUtil

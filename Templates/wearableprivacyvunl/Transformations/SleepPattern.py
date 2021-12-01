@@ -1,7 +1,7 @@
 from rdflib import Literal
 from rdflib.namespace import RDF, Namespace
 
-
+# https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0142533&type=printable
 # https://dl.acm.org/doi/pdf/10.1145/3309074.3309076
 from Templates.ITemplate import ITransformation
 
@@ -21,14 +21,15 @@ class SleepPattern(ITransformation):
         input_node = self.MODELS["inputRequirement1"]
         triples = [
             (input_node, RDF.type, self.PRIVVULNV2.Constraint),
+            (input_node, self.PRIVVULNV2.TemporalResolution, Literal(0.011669, datatype=self.XSD.double)),
             (input_node, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.Accelerometer),
         ]
 
         time_resolution = self.MODELS['timeResolutionLinear']
         triples += [
             (time_resolution, RDF.type, self.PRIVVULNV2.TimeResolutionLinear),
-            (time_resolution, self.PRIVVULNV2.TimeInput, Literal(1.0, datatype=self.XSD.double)),
-            (time_resolution, self.PRIVVULNV2.TimeOutput, Literal(1.0, datatype=self.XSD.double)),
+            (time_resolution, self.PRIVVULNV2.TimeInput, Literal(0.011669, datatype=self.XSD.double)),
+            (time_resolution, self.PRIVVULNV2.TimeOutput, Literal(0.011669, datatype=self.XSD.double)),
             (input_node, self.PRIVVULN.feeds, time_resolution)
         ]
 

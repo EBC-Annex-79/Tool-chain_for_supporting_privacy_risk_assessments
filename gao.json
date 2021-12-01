@@ -32,7 +32,7 @@
       "object": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#InterbeatInterval"
     }
   ],
-  "nodes:": [
+  "nodes": [
     {
       "name": "SmartWatch",
       "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#LowerArm",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Temperature",
-      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Temperature",
+      "type": "https://emikr15.student.sdu.dk/21/10/05/wearableprivacyvunl.ttl#Thermometer",
       "address": "https://ontology.hviidnet.com/2020/01/03/privacyvunl-model.ttl#Temperature",
       "superType": "https://ontology.hviidnet.com/2020/01/03/privacyvunl.ttl#TimeSeries",
       "attributes": [

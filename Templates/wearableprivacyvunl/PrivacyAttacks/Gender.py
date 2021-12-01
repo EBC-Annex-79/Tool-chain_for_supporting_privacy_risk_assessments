@@ -24,7 +24,7 @@ class Gender(IPrivacyAttack):
         triples = [
             (accelerometer, self.RDF.type, self.PRIVVULNV2.Constraint),
             (accelerometer, self.PRIVVULNV2.TemporalResolution, Literal("0.01", datatype=self.XSD.double)),
-            (accelerometer, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.PhysicalActivity)
+            (accelerometer, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.Accelerometer)
         ]
 
         transformation = self.MODELS["accelerometerToGender"]

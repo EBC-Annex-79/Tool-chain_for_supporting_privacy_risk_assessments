@@ -1,8 +1,6 @@
 from rdflib import Literal
 from rdflib.namespace import RDF, Namespace
 
-
-
 # https://arxiv.org/pdf/2106.11900.pdf
 from Templates.ITemplate import ITransformation
 
@@ -22,6 +20,7 @@ class HandGestures(ITransformation):
         acc = self.MODELS["inputRequirementACC"]
         triples = [
             (acc, RDF.type, self.PRIVVULNV2.Constraint),
+            (acc, self.PRIVVULNV2.TemporalResolution, Literal(0.03125, datatype=self.XSD.double)),
             (acc, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.Accelerometer),
         ]
 

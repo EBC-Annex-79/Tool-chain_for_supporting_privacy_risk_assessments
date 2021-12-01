@@ -22,13 +22,14 @@ class PhysicalActivity(ITransformation):
         input_node = self.MODELS["inputRequirement"]
         triples = [
             (input_node, self.RDF.type, self.PRIVVULNV2.Constraint),
+            (input_node, self.PRIVVULNV2.TemporalResolution, Literal(0.03333, datatype=self.XSD.double)),
             (input_node, self.PRIVVULN.feeds, self.__DOMAINNAMESPACE__.Accelerometer)
         ]
         time_resolution = self.MODELS['timeResolutionLinear']
         triples += [
             (time_resolution, RDF.type, self.PRIVVULNV2.TimeResolutionLinear),
-            (time_resolution, self.PRIVVULNV2.TimeInput, Literal(1.0, datatype=self.XSD.double)),
-            (time_resolution, self.PRIVVULNV2.TimeOutput, Literal(1.0, datatype=self.XSD.double)),
+            (time_resolution, self.PRIVVULNV2.TimeInput, Literal(0.03333, datatype=self.XSD.double)),
+            (time_resolution, self.PRIVVULNV2.TimeOutput, Literal(0.03333, datatype=self.XSD.double)),
             (input_node, self.PRIVVULN.feeds, time_resolution)
         ]
 
